@@ -9,7 +9,7 @@ import bgPDN from '../../assets/bg.jpg';
 const styles = theme => ({
     container: {
         padding: "5% 10%",
-        backgroundColor: 'rgba(29, 80, 109, 0.9)',
+        backgroundColor: 'rgba(30, 130, 126, 0.9)',
     },
     bg: {
         backgroundImage: `url(${bgPDN})`,
@@ -29,9 +29,9 @@ const styles = theme => ({
         fontSize: '30px',
         fontWeight: 500,
         textTransform :'uppercase',
-        color: "#E1E8EB",
+        color: "#FEA142",
         "& b": {
-            color: "#3bb1e6",
+            color: "#FEA142",
         }
     },
     text:{
@@ -49,7 +49,7 @@ const styles = theme => ({
         fontWeight: "bold",
         fontStyle: "italic",
         '&:hover': {
-            backgroundColor: "#56a3bf",
+            backgroundColor: "#27CCAC",
         },
     },
     link:{
@@ -72,7 +72,7 @@ const QueEsPDN = props => {
                     <Typography className={classes.headingText} paragraph>
                         Plataforma
                     <br />
-                        Digital Nacional
+                        Digital Estatal
                     </Typography>
                     
                     <Typography className={classes.subTitle} paragraph>

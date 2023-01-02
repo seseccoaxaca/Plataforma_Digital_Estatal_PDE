@@ -47,7 +47,7 @@ const styles = theme => ({
         color: "#b2bfc4"
     },
     textMenu: {
-        color: "#b2bfc4"
+        color: "#ffffff"
     },
     iconSesion: {
         width: theme.spacing(6),
@@ -107,7 +107,7 @@ const BannerDesktop = props => {
             <AppBar
                 position="static"
                 style={{
-                    backgroundColor: "#3e5866",
+                    backgroundColor: "#828282",
                     border: 0,
                     boxShadow: "none"
                 }}

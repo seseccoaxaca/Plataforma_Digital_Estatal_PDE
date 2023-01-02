@@ -5,7 +5,7 @@ import {UserContext} from "../Login/UserContext";
 
 const styles = theme => ({
     root:{
-        backgroundColor: theme.palette.azulPDN,
+        backgroundColor: "#27CCAC",
         padding: 2,
         color: '#3e5968',
         paddingLeft: theme.spacing(8)
@@ -35,7 +35,7 @@ function Version(props){
     return(
         <React.Fragment>
             <div className={classes.root}>
-                    <Typography display={'inline'}><b>{`Versión 1.1`}</b>&nbsp;&nbsp;</Typography>
+                    <Typography display={'inline'}><b>{`Secretaría Ejecutiva del Sistema Estatal de Combate a la Corrupción`}</b>&nbsp;&nbsp;</Typography>
                     {/* <Typography display={'inline'} className={classes.fecha}>{`${day} ${month} ${year}`}</Typography> */}
             </div>
             {user.loggedIn &&
