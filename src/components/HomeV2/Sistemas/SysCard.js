@@ -11,11 +11,13 @@ const styles = theme => ({
         margin: theme.spacing(2),
         padding: theme.spacing(2),
         width: 230,
-        borderRadius: 2,
+        borderRadius: 50,
+        
         //display: "flex",
         //justifyContent: "center"
         textAlign: "center",
-        textDecoration: "none"
+        textDecoration: "none",
+        background: 'rgba(254, 254, 254, 0.9)',
     },
 })
 

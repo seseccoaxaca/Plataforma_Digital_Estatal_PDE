@@ -3,9 +3,9 @@ import { esES } from '@mui/material/locale';
 
 import BaseTheme from './BaseTheme';
 
-const AzulPDN = 'rgba(137, 212, 242, 1)';
+const AzulPDN = 'rgba(70, 170, 166, 1)';
 const grisBorder = 'rgba(255, 255, 255, 0.23)';
-const amarilloPDN = 'rgb(232, 214, 67)';
+const amarilloPDN = 'rgb(254, 162, 66)';
 
 // const err = {
 //   'label + &': {
@@ -57,7 +57,7 @@ export default createTheme(
           root: {
             'color': AzulPDN,
             '&.MuiSelect-icon': {
-              color: '#E1E8EB'
+              color: '#46AAA6'
             }
           }
         }

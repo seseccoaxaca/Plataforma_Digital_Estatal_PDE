@@ -25,7 +25,10 @@ const styles = theme => ({
         background: "rgb(255,255,255,0.5)",
         borderRadius: "50px",
         fontWeight: "bold",
-        fontStyle: "italic"
+        fontStyle: "italic",
+        "&:hover": {
+            backgroundColor: "#FEB142",
+          },
     }
 });
 

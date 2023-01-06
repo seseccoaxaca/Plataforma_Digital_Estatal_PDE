@@ -9,21 +9,21 @@ const ligaDatosNumeralia = process.env.REACT_APP_NUMERALIA;
 const styles = theme => ({
     container: {
         padding: "5% 3%",
-        backgroundColor: 'rgba(42, 116, 145)',
+        backgroundColor: '#E2E2E2',
         minHeight: '320px'
     },
     Foot: {
         backgroundColor: '#3E5866',
     },
     headingText: {
-        color: "#efd643",
+        color: "#FEA142",
         fontWeight: 500,
         fontSize: '45px',
     },
     text:{
         fontSize: '18px',
         fontWeight: 400,
-        color: "#efd643",
+        color: "#FEA142",
     },
     textFoot:{
         fontSize: '15px',

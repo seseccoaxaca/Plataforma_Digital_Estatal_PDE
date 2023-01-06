@@ -18,7 +18,7 @@ const glosarioData = process.env.REACT_APP_GLOSARIO;
 
 const useStyles = makeStyles((theme) => ({
   drawerPaper: {
-    background: '#f5f8fb',
+    background: '#A2A2A2',
   },
   abecedario: {
     wordWrap: "break-word", 
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     background: '#f5f8fb',
   },
   text: {
-    color: '#55575a'
+    color: '#FEA142'
   }
 }));
 
@@ -66,7 +66,7 @@ export default function Busqueda() {
   }, [search, palabras]);
 
   if (loading) {
-    return <p>Cargando Información...</p>;
+    return <p className={classes.text}>Cargando Información...</p>;
   }
 
   const abecedario = ['a','b','c','ch','d','e','f','g','h','i','j','k','l','ll','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z'];

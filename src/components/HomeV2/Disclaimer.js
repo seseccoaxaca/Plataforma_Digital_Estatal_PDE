@@ -20,7 +20,7 @@ const styles = theme => ({
     li: {
         "&:before": {
             content: '"•"',
-            color: '#5fb1e6',
+            color: "#FEB142",
             fontWeight: "bold",
             display: "inline-block",
             width: "1em",
@@ -30,7 +30,7 @@ const styles = theme => ({
         marginTop: 0, */
     },
     paper: {
-        backgroundColor: theme.palette.background.opaque,
+        backgroundColor: "#828282",
         padding: theme.spacing(4),
         marginBottom: theme.spacing(4),
         color: theme.palette.primario.contrastText,
@@ -40,20 +40,20 @@ const styles = theme => ({
         borderRadius: '0px 10px 10px 10px'
     },
     text_color: {
-        color: theme.palette.primario.contrastText
+        color:' white'
     },
     enlaces: {
         'textDecoration': 'none',
         // 'color': '#b1bcc1',
-        'color': theme.palette.azulPDN,
+        'color': "#FEA142",
         '&:visited': {
-          color: theme.palette.azulPDN
+          color: "#FEB142"
         },
         '&:link': {
-          color: theme.palette.azulPDN
+          color: "#FEB142"
         },
         '&:active': {
-          color: theme.palette.azulPDN
+          color: "#FEB142"
         },
         '&:hover': {
           color: '#FFF',

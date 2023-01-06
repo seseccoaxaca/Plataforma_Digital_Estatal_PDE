@@ -34,22 +34,22 @@ export default createTheme(
       text: {
         main: '#E1E8EB',
         greyColor: '#666666',
-        blueColor: '#3ab0e5',
+        blueColor: '#46AAA6',
         linkColor: '#89d4f2'
       },
       background: {
-        default: '#0d3b49',
+        default: '#46AAA6',
         opaque: '#155065',
         hoverBotton: '#56a3bf',
         tableBody: '#f2f2f2',
         paperChart: '#24768f'
       },
-      azulPDN: '#0081b3',
+      azulPDN: '#46AAA6',
       yellowColor: '#ffe01b',
       greyColor: '#666666',
       redColor: '#B00020',
       S1: {
-        color: '#F8CAC4',
+        color: '#46AAA6',
         shade: '#FBE2DF'
       },
       S2: {

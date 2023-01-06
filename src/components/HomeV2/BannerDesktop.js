@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import withStyles from '@mui/styles/withStyles';
 import {AppBar, Typography, Grid} from "@mui/material";
 import {Link as RouterLink} from "react-router-dom";
-import imgHeader from "../../assets/rediseno/logo_pdn.svg";
+import imgHeader from "../../assets/rediseno/PDE_v4_Univia_Pro.png";
 import Espe from "../../assets/rediseno/ico_especificaciones.svg";
 import Mesa from "../../assets/rediseno/ico_mesa-ayuda.svg";
 import MDA from "../../assets/rediseno/ico_mda.svg";
@@ -15,6 +15,7 @@ import ReactGA from "react-ga";
 import Link from '@mui/material/Link';
 //import {getUser} from '../Login/Auth';
 import {UserContext} from "../Login/UserContext";
+import { Margin } from "@mui/icons-material";
 
 const styles = theme => ({
     root: {
@@ -44,7 +45,8 @@ const styles = theme => ({
     },
     link: {
         textDecoration: "none",
-        color: "#b2bfc4"
+        color: "#b2bfc4",
+        padding: 0
     },
     textMenu: {
         color: "#ffffff"
@@ -55,11 +57,15 @@ const styles = theme => ({
         paddingBottom: 0
     },
     iconPDN: {
-        height: theme.spacing(7)
+        height: theme.spacing(7),
+        padding: 0,
+        margin: 0
     },
     containerIconPDN: {
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        padding: 0,
+        margin: 0
     },
     rootC: {
         paddingLeft: theme.spacing(7),
@@ -212,9 +218,9 @@ const BannerDesktop = props => {
             {showSistemas &&
                 <SistemasMenu toogle={() => toggle()} systems={systems}/>
             }
-            {showInterconexion &&
+            {/* {showInterconexion &&
                 <InterconexionMenu toogle={() => toggleInterconexion()}/>
-            }
+            } */}
 
         </React.Fragment>
     );

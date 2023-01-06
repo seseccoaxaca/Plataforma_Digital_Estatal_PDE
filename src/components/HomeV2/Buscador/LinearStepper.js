@@ -141,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function getSteps() {
-  return ["Tipo de Búsqueda", "Filtros de Búsqueda", "Resultados de Búsqueda"];
+  return ["", "Filtros de Búsqueda", "Resultados de Búsqueda"];
 }
 
 function FiltrosBusqueda(props) {

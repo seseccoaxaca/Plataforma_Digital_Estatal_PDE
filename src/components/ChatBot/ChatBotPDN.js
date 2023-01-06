@@ -9,7 +9,7 @@ import ReactGA from "react-ga";
 // all available props
 const theme = {
   background: "#f5f8fb",
-  headerBgColor: "#3d6575",
+  headerBgColor: "#46AAA6",
   headerFontColor: "#fff",
   headerFontSize: "15px",
   botBubbleColor: "#3ab0e5",

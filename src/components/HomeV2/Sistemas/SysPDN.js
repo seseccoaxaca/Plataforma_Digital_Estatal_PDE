@@ -56,7 +56,7 @@ const systems = [
 
 const CustomTypography = withStyles({
     root: {
-        color: "#d0d7d9"
+        color: "#d0d7d9",
     }
 })(Typography);
 

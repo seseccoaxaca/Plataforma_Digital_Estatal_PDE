@@ -6,7 +6,7 @@ import {withStyles} from "@mui/styles";
 
 const styles = theme => ({
     root: {
-        //background: "#263d49",
+        background: 'rgba(254, 177, 66, 0.7)',
         padding: theme.spacing(2),
         flexGrow: 1
     }

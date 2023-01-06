@@ -3,7 +3,7 @@ const CssFooter = theme => ({
     flexGrow: 1,
     height: 250,
     color: '#b1bcc1',
-    backgroundColor: theme.palette.background.opaque,
+    backgroundColor: "828282",
     marginTop: theme.spacing(6)
   },
   emailContacto: {
@@ -43,7 +43,7 @@ const CssFooter = theme => ({
   acercade: {
     display: 'inline-block',
     color: '#5d7b8a',
-    backgroundColor: '#bae3f7',
+    backgroundColor: '#828282',
     with: '100%',
     height: '50px',
     marginTop: '10px',
@@ -85,13 +85,13 @@ const CssFooter = theme => ({
     marginTop: theme.spacing(3),
     padding: theme.spacing(2),
     color: '#FFF',
-    backgroundColor: '#3e5866'
+    backgroundColor: '#828282'
   },
   footerMobileSeccLogos: {
     marginTop: theme.spacing(-1),
     padding: theme.spacing(2),
     color: '#FFF',
-    backgroundColor: '#4b6471'
+    backgroundColor: '#828282'
   },
   mobileSESNA: {
     width: '30vw',
@@ -107,7 +107,7 @@ const CssFooter = theme => ({
   },
   // Center
   centerFoot: {
-    backgroundColor: '#124759',
+    backgroundColor: '#828282',
     marginTop: theme.spacing(-3),
     height: 274
   },
