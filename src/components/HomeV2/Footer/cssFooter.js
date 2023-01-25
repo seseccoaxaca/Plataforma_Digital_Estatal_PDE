@@ -3,7 +3,7 @@ const CssFooter = theme => ({
     flexGrow: 1,
     height: 250,
     color: '#b1bcc1',
-    backgroundColor: "828282",
+    backgroundColor: "#828282",
     marginTop: theme.spacing(6)
   },
   emailContacto: {
@@ -43,7 +43,7 @@ const CssFooter = theme => ({
   acercade: {
     display: 'inline-block',
     color: '#5d7b8a',
-    backgroundColor: '#828282',
+    backgroundColor: '#FEA142',
     with: '100%',
     height: '50px',
     marginTop: '10px',

@@ -16,7 +16,7 @@ const CssDeclaraciones = theme => ({
   },
   card: {
     // backgroundColor: "#34b3eb", //theme.palette.azul.color,
-    'backgroundColor': theme.palette.S1.color,
+    'backgroundColor': "#FEA142",
     'paddingLeft': theme.spacing(1),
     'paddingRight': theme.spacing(1),
     'paddingTop': theme.spacing(2),

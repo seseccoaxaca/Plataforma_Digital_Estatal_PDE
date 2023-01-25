@@ -33,7 +33,7 @@ const CssSeccDeclaraciones = theme => ({
     // marginBottom: 10,
     paddingBottom: 10,
     color: '#155724',
-    backgroundColor: '#d4edda',
+    backgroundColor: '#828282',
     borderColor: '#c3e6cb',
     border: '1px solid transparent',
     borderRadius: '.25rem',
