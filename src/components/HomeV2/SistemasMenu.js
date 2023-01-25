@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 
 const styles = theme => ({
     root: {
-        backgroundColor: '#364e56',
+        backgroundColor: '#828282',
         paddingTop: theme.spacing(3),
         paddingBottom: theme.spacing(3),
         position: 'absolute',
@@ -15,13 +15,15 @@ const styles = theme => ({
     },
     item: {
         "&:hover": {
-            backgroundColor: "#64808f"
+            backgroundColor: "#46AAA6"
         },
         borderStyle: 'solid',
+        borderRadius: 50,
         borderWidth: 2,
         maxWidth: theme.spacing(25),
         transition: 'height 2s',
         height: '70%'
+        
     },
     opc: {
         marginBottom: theme.spacing(1),

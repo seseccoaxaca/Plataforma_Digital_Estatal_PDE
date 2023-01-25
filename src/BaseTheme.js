@@ -39,7 +39,7 @@ export default createTheme(
       },
       background: {
         default: '#46AAA6',
-        opaque: '#155065',
+        opaque: '#46AAA6',
         hoverBotton: '#56a3bf',
         tableBody: '#f2f2f2',
         paperChart: '#24768f'

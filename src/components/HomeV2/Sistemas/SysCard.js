@@ -17,7 +17,8 @@ const styles = theme => ({
         //justifyContent: "center"
         textAlign: "center",
         textDecoration: "none",
-        background: 'rgba(254, 254, 254, 0.9)',
+        //background: 'rgba(254, 254, 254, 0.9)',
+        //color: "#FEA142"
     },
 })
 

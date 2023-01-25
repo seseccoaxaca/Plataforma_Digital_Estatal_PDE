@@ -45,7 +45,7 @@ const styles = theme => ({
     },
     menu: {
         "& .MuiPaper-root": {
-            backgroundColor: "#0d3b49",
+            backgroundColor: "#FFF",
             width: '100%'
         },
     },

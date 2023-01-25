@@ -7,7 +7,7 @@ const CssCards = theme => ({
     color: '#55575a'
   },
   header: {
-    backgroundColor: '#3E5866',
+    backgroundColor: '#46AAA6',
     backgroundRepeat: 'no-repeat',
     backgroundSize: '67%',
     backgroundPosition: 'center center',

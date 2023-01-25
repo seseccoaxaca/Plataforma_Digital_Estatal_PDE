@@ -221,7 +221,7 @@ const pdnRoutes = [
 		component: HelpDesk,
 		private: false,
 		name: "Mesa de ayuda",
-		shortName: "Mesa de ayuda",
+		shortName: "",
 		color: "#f2f2f2",
 		icon: IconHelpDesk
 	},

@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import withStyles from '@mui/styles/withStyles';
 import {AppBar, Typography, Grid} from "@mui/material";
 import {Link as RouterLink} from "react-router-dom";
-import imgHeader from "../../assets/rediseno/PDE_v4_Univia_Pro.png";
+import imgHeader from "../../assets/rediseno/PDE_v2_Inv.png";
 import Espe from "../../assets/rediseno/ico_especificaciones.svg";
 import Mesa from "../../assets/rediseno/ico_mesa-ayuda.svg";
 import MDA from "../../assets/rediseno/ico_mda.svg";
@@ -27,14 +27,14 @@ const styles = theme => ({
     },
     opc: {
         "&:hover": {
-            backgroundColor: "#64808f"
+            backgroundColor: "#46AAA6"
         },
         paddingBottom: theme.spacing(2),
         textAlign: 'center',
         cursor: "pointer"
     },
     selected: {
-        backgroundColor: "#64808f"
+        backgroundColor: "#46AAA6"
     },
     icon: {
         width: theme.spacing(7),
@@ -113,7 +113,7 @@ const BannerDesktop = props => {
             <AppBar
                 position="static"
                 style={{
-                    backgroundColor: "#828282",
+                    backgroundColor: "#A2A2A2",
                     border: 0,
                     boxShadow: "none"
                 }}
@@ -165,7 +165,7 @@ const BannerDesktop = props => {
                                 </Typography>
                             </Grid>
                             <Grid item className={classes.opc}>
-                                <Link href="https://mda.plataformadigitalnacional.org/"
+                                <Link target={"_blank"} href="https://mda.plataformadigitalnacional.org/"
                                       className={classes.link}
                                       onClick={() => ReactGA.pageview('/mda')}
                                 >

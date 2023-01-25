@@ -19,7 +19,7 @@ const styles = theme => ({
     },
     item: {
         "&:hover": {
-            backgroundColor: "#64808f"
+            backgroundColor: "#46AAA6"
         },
         borderStyle: 'solid',
         borderWidth: 2,
