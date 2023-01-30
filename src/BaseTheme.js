@@ -9,24 +9,24 @@ export default createTheme(
     },
     palette: {
       primary: {
-        main: '#89d4f2',
-        light: '#bdffff',
+        main: '#46AAA6',
+        light: '#27CCAC',
         dark: '#56a3bf'
       },
       secondary: {
-        main: '#ffe01b',
-        light: '#ffff5c',
+        main: '#FEA142',
+        light: '#FEB142',
         dark: '#c8af00'
       },
       primario: {
-        main: '#0d3b49',
-        light: '#3d6575',
+        main: '#46AAA6',
+        light: '#27CCAC',
         dark: '#001621',
         contrastText: '#E1E8EB'
       },
       secundario: {
-        main: '#3ab0e5',
-        light: '#79e2ff',
+        main: '#27CCAC',
+        light: '#27CCAC',
         dark: '#0081b3',
         contrastText: '#0d3b49',
         linkColor: '#89d4f2'
@@ -39,8 +39,8 @@ export default createTheme(
       },
       background: {
         default: '#46AAA6',
-        opaque: '#46AAA6',
-        hoverBotton: '#56a3bf',
+        opaque: '#398482',
+        hoverBotton: '#27CCAC',
         tableBody: '#f2f2f2',
         paperChart: '#24768f'
       },
