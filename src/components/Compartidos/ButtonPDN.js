@@ -10,7 +10,7 @@ const styles = theme => ({
     'fontWeight': 'bold',
     'fontStyle': 'italic',
     '&:hover': {
-      backgroundColor: '#56a3bf'
+      backgroundColor: '#27CCAC'
     }
   }
 });

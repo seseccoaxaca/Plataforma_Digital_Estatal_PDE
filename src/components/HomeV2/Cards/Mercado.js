@@ -26,7 +26,7 @@ const CardMercardo = props => {
       </CardContent>
       <CardActions>
         <Grid container direction={'row-reverse'}>
-          <ButtonPDN text={''} href={'https://mda.plataformadigitalnacional.org/'} onClick={()=>ReactGA.pageview('/mda')}>
+          <ButtonPDN text={''} href={'https://mda.plataformadigitalnacional.org/'} target='_blank' onClick={()=>ReactGA.pageview('/mda')}>
             CONOCE MÁS
           </ButtonPDN>
         </Grid>

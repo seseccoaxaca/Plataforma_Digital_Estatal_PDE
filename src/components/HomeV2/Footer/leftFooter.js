@@ -22,23 +22,23 @@ const LeftFooter = props => {
   return (
     <Grid container spacing={1} direction='column' justifyContent='flex-end' alignItems='stretch'>
       <Grid item justifyContent='right'>
-        <Link href='https://www.facebook.com/SESNAOficial/' target='_blank' onClick={()=>ReactGA.event({ category: 'facebook-sesna', action: 'click' })}>
+        <Link href='https://www.facebook.com/SESECCOaxaca/' target='_blank' onClick={()=>ReactGA.event({ category: 'facebook-sesecc', action: 'click' })}>
           <figure className={classes.figure}>
             <img alt='Facebook' src={icon_facebook} className={classes.image} />
           </figure>
         </Link>
-        <Link href='https://twitter.com/SESNAOficial' target='_blank' onClick={()=>ReactGA.event({ category: 'twitter-sesna', action: 'click' })}>
+        <Link href='https://twitter.com/SESECCOaxaca' target='_blank' onClick={()=>ReactGA.event({ category: 'twitter-sesecc', action: 'click' })}>
           <figure className={classes.figure}>
             <img alt='Twitter' src={icon_twitter} className={classes.image} />
           </figure>
         </Link>
-        <Link href='https://www.youtube.com/channel/UCRUpiHth_WRkNo2sBmZIyfQ/featured' target='_blank' onClick={()=>ReactGA.event({ category: 'youtube-sesna', action: 'click' })}>
+        <Link href='https://www.youtube.com/channel/UCGPW2yCI5ZtIbG08g28785g' target='_blank' onClick={()=>ReactGA.event({ category: 'youtube-sesecc', action: 'click' })}>
           <figure className={classes.figure}>
             <img alt='YouTube' src={icon_youtube} className={classes.image} />
           </figure>
         </Link>
-        <Link href='mailto:pdn@sesna.gob.mx' target='_blank' underline='none' className={classes.emailContacto} variant='subtitle1'>
-          pdn@sesna.gob.mx
+        <Link href='mailto:sesecc@oaxaca.gob.mx' target='_blank' underline='none' className={classes.emailContacto} variant='subtitle1'>
+        sesecc@oaxaca.gob.mx
         </Link>
       </Grid>
       <Grid item className={classes.acercade}>
@@ -58,7 +58,7 @@ const LeftFooter = props => {
         </Grid>
       </Grid>
       <Grid item>
-        <Link href='https://github.com/orgs/PDNMX/' target='_blank' onClick={()=>ReactGA.event({ category: 'github-pdn', action: 'click' })}>
+        <Link href='https://github.com/orgs/PDNMX/'  style={{pointerEvents: "none"}} target='_blank' onClick={()=>ReactGA.event({ category: 'github-pdn', action: 'click' })}>
           <figure className={classes.figure}>
             <img alt='GitHub' src={icon_github} className={classes.image} style={{ marginTop: '10px', width: '80px' }} />
           </figure>

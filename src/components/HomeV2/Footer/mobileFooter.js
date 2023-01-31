@@ -12,6 +12,7 @@ import icon_github from '../../../assets/footer/ico_git.svg';
 
 import logoSESNA from '../../../assets/footer/logo_sna.svg';
 import logoPDN from '../../../assets/footer/logotipo_pdn.svg';
+import SESECCblanco from '../../../assets/footer/SESECC_blanco.svg';
 
 import { makeStyles } from '@mui/styles';
 import css from './cssFooter';
@@ -40,7 +41,7 @@ const MobileFooter = props => {
         </Grid>
         <Grid item>
           <Typography variant='subtitle1'>
-            <Link href='https://www.youtube.com/channel/UCJ0nWmB2-ADfn95r5cjmLJA/' target='_blank' underline='none' className={classes.linkMobile} onClick={()=>ReactGA.event({ category: 'youtube-pdn', action: 'click' })}>
+            <Link href='https://www.youtube.com/channel/UCGPW2yCI5ZtIbG08g28785g' target='_blank' underline='none' className={classes.linkMobile} onClick={()=>ReactGA.event({ category: 'youtube-pdn', action: 'click' })}>
               Videos
             </Link>
           </Typography>
@@ -55,25 +56,25 @@ const MobileFooter = props => {
       </Grid>
       <Grid container direction={'row'} justifyContent={'center'} alignContent={'center'} className={classes.footerMobileSeccLogos}>
         <Grid item>
-          <img alt='Logo SESNA' src={logoSESNA} className={classes.mobileSESNA} />
+          <img alt='Logo SESECC' src={SESECCblanco} className={classes.mobileSESNA} />
         </Grid>
-        <Grid item>
+        {/* <Grid item>
           <img alt='Logo PDN' src={logoPDN} className={classes.mobilePDN} />
-        </Grid>
+        </Grid> */}
       </Grid>
       <Grid container direction={'row'} justifyContent={'center'} alignContent={'center'} className={classes.footerMobileSeccLogos}>
         <Grid item>
-          <Link href='https://github.com/orgs/PDNMX/' target='_blank'>
+          <Link  style={{pointerEvents: "none"}} href='https://github.com/orgs/PDNMX/' target='_blank'>
             <figure className={classes.figure}>
               <img alt='GitHub' src={icon_github} className={classes.image} />
             </figure>
           </Link>
-          <Link href='https://www.facebook.com/SESNAOficial/' target='_blank'>
+          <Link href='https://www.facebook.com/SESECCOaxaca/' target='_blank'>
             <figure className={classes.figure}>
               <img alt='Facebook' src={icon_facebook} className={classes.image} />
             </figure>
           </Link>
-          <Link href='https://twitter.com/SESNAOficial' target='_blank'>
+          <Link href='https://twitter.com/SESECCOaxaca' target='_blank'>
             <figure className={classes.figure}>
               <img alt='Twitter' src={icon_twitter} className={classes.image} />
             </figure>
@@ -94,8 +95,8 @@ const MobileFooter = props => {
           </Link>
         </Grid>
         <Grid item>
-          <Link href='mailto:pdn@sesna.gob.mx' target='_blank' underline='none' className={classes.emailContacto} variant='subtitle1' style={{ marginRight: 0 }}>
-            pdn@sesna.gob.mx
+          <Link href='mailto:sesecc@oaxaca.gob.mx' target='_blank' underline='none' className={classes.emailContacto} variant='subtitle1' style={{ marginRight: 0 }}>
+          sesecc@oaxaca.gob.mx
           </Link>
         </Grid>
       </Grid>

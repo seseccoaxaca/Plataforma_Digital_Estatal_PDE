@@ -81,13 +81,13 @@ export default function CustomizedExpansionPanels() {
 
             <Accordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1d-content" id="panel1d-header">
-                    <Typography variant="h6">¿Qué es la PDN?</Typography>
+                    <Typography variant="h6">¿Qué es la PDE?</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
 
                     <div>
                         <Typography paragraph>
-                            La PDN es una fuente de inteligencia para construir integridad y combatir la corrupción que creará valor para el gobierno y la sociedad a partir de grandes cantidades de datos.
+                        La Plataforma Digital Estatal es una herramienta de inteligencia Institucional del Sistema Estatal de Combate a la Corrupción, para el cumplimiento de sus funciones, obligaciones y facultades, en donde a través de la interconexión de los nueve sistemas, se podrá detectar, prevenir, generar políticas que desalienten y combatan actos de corrupción.
                         </Typography>
 
                         <Typography paragraph>
@@ -95,11 +95,11 @@ export default function CustomizedExpansionPanels() {
                         </Typography>
 
                         <Typography paragraph>
-                            El desarrollo de la PDN considera seis sistemas que contienen datos como: declaraciones patrimoniales de personas servidoras públicas de todo el país, información de contrataciones gubernamentales y los datos de quienes participan en estos procedimientos, así como información de particulares y personas servidoras públicas sancionadas por la comisión de faltas administrativas.
+                            El desarrollo de la PDE considera seis sistemas que contienen datos como: declaraciones patrimoniales de personas servidoras públicas de todo el país, información de contrataciones gubernamentales y los datos de quienes participan en estos procedimientos, así como información de particulares y personas servidoras públicas sancionadas por la comisión de faltas administrativas.
                         </Typography>
 
                         <Typography paragraph>
-                            Es importante señalar que la PDN no es generadora ni un repositorio de datos, sino que es una plataforma de interoperabilidad que consulta información de diversas fuentes.
+                            Es importante señalar que la PDE no es generadora ni un repositorio de datos, sino que es una plataforma de interoperabilidad que consulta información de diversas fuentes.
                         </Typography>
 
                         <ButtonPDN target="_blank" href='https://drive.google.com/file/d/1wdy8bgX9fn1yRCAWSJMhjeTYKxEOXRQv/view'>

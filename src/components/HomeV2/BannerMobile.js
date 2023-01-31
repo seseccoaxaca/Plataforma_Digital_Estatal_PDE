@@ -6,7 +6,7 @@ import {
 } from "@mui/material";
 import {Link as RouterLink} from "react-router-dom";
 import { MoreHoriz as MoreHorizIcon} from '@mui/icons-material';
-import imgHeader from "../../assets/rediseno/logo_pdn.svg";
+import imgHeader from "../../assets/rediseno/PDE_v2_Inv.png";
 import Especificaciones_logo from "../../assets/rediseno/ico_especificaciones.svg";
 import Mesa_logo from "../../assets/rediseno/ico_mesa-ayuda.svg";
 import MDA_logo from "../../assets/rediseno/ico_mda.svg";
@@ -45,12 +45,12 @@ const styles = theme => ({
     },
     menu: {
         "& .MuiPaper-root": {
-            backgroundColor: "#FFF",
+            backgroundColor: "#828282",
             width: '100%'
         },
     },
     menuItem: {
-        backgroundColor: "#1a4653",
+        backgroundColor: "#A2A2A2",
         marginRight: theme.spacing(1),
         marginLeft: theme.spacing(1),
         marginBottom: theme.spacing(1),
@@ -106,7 +106,7 @@ const BannerMobile = props => {
             <AppBar
                 position="static"
                 style={{
-                    backgroundColor: "#3e5866",
+                    backgroundColor: "#A2A2A2",
                     border: 0,
                     boxShadow: "none"
                 }}
@@ -173,12 +173,12 @@ const BannerMobile = props => {
                         <Collapse in={dropDownInterconexion} timeout="auto" unmountOnExit>
                             <List dense={true} component="div">
                                 <ListItemButton href='https://www.plataformadigitalnacional.org/mapa-sla/' key='legislacion'
-                                                className={classes.nested} onClick={()=>ReactGA.pageview('/mapa-sla')}>
+                                                target="_blank" className={classes.nested} onClick={()=>ReactGA.pageview('/mapa-sla')}>
                                     <img src={legislacion_icono} alt='Legislación' className={classes.iconSistemas}/>
                                     <Typography color={'#b2bfc4'}>Legislación</Typography>
                                 </ListItemButton>
                                 <ListItemButton href='https://www.plataformadigitalnacional.org/mapa-avance/' key='mapa'
-                                                className={classes.nested} onClick={()=>ReactGA.pageview('/mapa-avance')}>
+                                                target="_blank" className={classes.nested} onClick={()=>ReactGA.pageview('/mapa-avance')}>
                                     <img src={mapa_s2s3_icono} alt='Avance' className={classes.iconSistemas}/>
                                     <Typography color='#b2bfc4'>Sistemas 1, 2 y 3</Typography>
                                 </ListItemButton>
@@ -192,7 +192,8 @@ const BannerMobile = props => {
                         </Collapse>
 
                         <MenuItem className={classes.menuItem} component={Button}
-                                  href="https://mda.plataformadigitalnacional.org/"
+                                  href="https://mda.plataformadigitalnacional.org/" 
+                                  target="_blank" 
                                   onClick={()=>ReactGA.pageview('/mda')}>
                             <Typography style={{width:'100%'}}>MDA</Typography>
                             <img src={MDA_logo} alt="Mercado Digital Anticorrupción" className={classes.icon}/>
