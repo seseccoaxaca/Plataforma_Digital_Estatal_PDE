@@ -95,14 +95,10 @@ export default function CustomizedExpansionPanels() {
                         </Typography>
 
                         <Typography paragraph>
-                            El desarrollo de la PDE considera seis sistemas que contienen datos como: declaraciones patrimoniales de personas servidoras públicas de todo el país, información de contrataciones gubernamentales y los datos de quienes participan en estos procedimientos, así como información de particulares y personas servidoras públicas sancionadas por la comisión de faltas administrativas.
-                        </Typography>
-
-                        <Typography paragraph>
                             Es importante señalar que la PDE no es generadora ni un repositorio de datos, sino que es una plataforma de interoperabilidad que consulta información de diversas fuentes.
                         </Typography>
 
-                        <ButtonPDN target="_blank" href='https://drive.google.com/file/d/1wdy8bgX9fn1yRCAWSJMhjeTYKxEOXRQv/view'>
+                        {/* <ButtonPDN target="_blank" href='https://drive.google.com/file/d/1wdy8bgX9fn1yRCAWSJMhjeTYKxEOXRQv/view'>
                             ¿Qué es la PDN?
                         </ButtonPDN>
 
@@ -116,7 +112,7 @@ export default function CustomizedExpansionPanels() {
 
                         <ButtonPDN target="_blank" href="https://drive.google.com/file/d/1-IvF3KYa5rups73BmVV4W8glT9csVGY9/view">
                             Seguridad de la información
-                        </ButtonPDN>
+                        </ButtonPDN> */}
                     </div>
 
 
@@ -125,15 +121,16 @@ export default function CustomizedExpansionPanels() {
 
             <Accordion square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2d-content" id="panel2d-header">
-                    <Typography variant="h6">Objetivos de la PDN</Typography>
+                    <Typography variant="h6">Objetivo de la PDE</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div>
                         <Typography>
-                            Usar nuevas tecnologías y metodologías como apoyo al trabajo de las autoridades del Sistema Nacional Anticorrupción para:
+                        La Plataforma Digital Estatal (PDE) deberá ser el principal instrumento de inteligencia institucional con el que cuente el Sistema Estatal de Combate
+                         a la Corrupción (SECC), para coadyuvar y facilitar el cumplimiento de las obligaciones y facultades que se le atribuyen en materia de combate a la corrupción.
                         </Typography>
 
-                        <ul className={classes.ul}>
+                        {/* <ul className={classes.ul}>
                             <li className={classes.li}><Typography display='inline'>
                                 Analizar y alertar a las autoridades sobre riesgos de corrupción;
                             </Typography></li>
@@ -155,7 +152,7 @@ export default function CustomizedExpansionPanels() {
                             <li className={classes.li}><Typography display='inline'>
                                 Dar evidencia para generar recomendaciones de política pública a las autoridades;
                             </Typography></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </AccordionDetails>
             </Accordion>
@@ -167,10 +164,12 @@ export default function CustomizedExpansionPanels() {
                 <AccordionDetails>
                     <div>
                         <Typography paragraph>
-                            El marco normativo de la PDN está compuesto por:
+                        El Marco Normativo de la Plataforma Digital Estatal está compuesto por la Ley del Sistema Estatal de Combate a la Corrupción (LSECC), la Ley de Responsabilidades
+                         Administrativas del Estado y Municipios de Oaxaca y el Acuerdo Mediante el cual el Comité Coordinador del Sistema Estatal de Combate a la Corrupción emite el
+                         análisis para la implementación y operación de la Plataforma Digital Estatal y las Bases para el Funcionamiento de la Plataforma Digital Estatal.
                         </Typography>
 
-                        <ol>
+                        {/* <ol>
                             <li><Typography>
                                 <MuiLink href="http://www.dof.gob.mx/nota_detalle.php?codigo=5445048&fecha=18/07/2016" target="_blank">
                                     Ley General del Sistema Nacional Anticorrupción (LGSNA)</MuiLink> artículos 9, fracciones XII, XIII y XVI; 17; 21, fracción VII, inciso b); 35, fracciones X y XI).
@@ -188,7 +187,7 @@ export default function CustomizedExpansionPanels() {
                                         Bases para el Funcionamiento de la Plataforma Digital Nacional</MuiLink>, las cuales establecen las directrices para el funcionamiento de la PDN y de los sistemas que la conforman, buscando garantizar en todo momento la interoperabilidad, interconexión, estabilidad, uso y seguridad de la información.
                                 </Typography>
                             </li>
-                        </ol>
+                        </ol> */}
 
                     </div>
                 </AccordionDetails>
@@ -196,12 +195,13 @@ export default function CustomizedExpansionPanels() {
 
             <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4d-content" id="panel4d-header">
-                    <Typography variant="h6">¿Qué hacen la SESNA y la USTPDN?</Typography>
+                    <Typography variant="h6">¿Qué hace la SESECC con relación a la Plataforma Digital Estatal?</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div>
                         <Typography paragraph>
-                            Conforme a lo establecido en la LGSNA, la PDN es administrada por la SESNA y lo hace a través de la Unidad de Servicios Tecnológicos y Plataforma Digital Nacional (USTPDN), la cual tiene a su cargo la evaluación, implementación, mantenimiento y actualización de los componentes informáticos de la PDN, además del desarrollo de proyectos estratégicos en materia de informática y tecnologías de la información, análisis de datos e inteligencia para el cumplimiento de los objetivos del Sistema Nacional Anticorrupción.
+                        La Secretaría Ejecutiva del Sistema Estatal de Combate a la Corrupción es la encargada de administrar la Plataforma Digital Estatal en
+                         términos de la Ley del Sistema Estatal de Combate a la Corrupción.
                         </Typography>
                     </div>
                 </AccordionDetails>
@@ -209,15 +209,62 @@ export default function CustomizedExpansionPanels() {
 
             <Accordion square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel5d-content" id="panel5d-header">
-                    <Typography variant="h6">Sistemas Estatales Anticorrupción</Typography>
+                    <Typography variant="h6">¿Cuántos sistemas integran la Plataforma Digital Estatal? </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div>
 
                         <Typography paragraph>
-                            A nivel estatal, las Secretarías Ejecutivas de los Sistemas Locales Anticorrupción (SESLA) son las encargadas de recibir, ordenar o resguardar los datos e información para integrarlos a los sistemas de la PDN.
+                        De acuerdo con la Ley del Sistema Estatal de Combate a la Corrupción en su artículo 43 “La Plataforma Digital del Sistema Estatal estará conformada por la información que a ella incorporen las autoridades integrantes del Sistema Estatal y contará, al menos, con los siguientes sistemas electrónicos:
                         </Typography>
 
+                        <ol>
+                            <li><Typography>
+                            Sistema de evolución patrimonial, declaración de intereses y constancia de presentación de declaración fiscal;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                Sistema de los Servidores públicos y particulares que intervengan en procedimientos de contrataciones públicas;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                 Catálogo de empresas prestadoras de servicios de los Poderes del Estado y Municipios;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                Sistema Estatal de Servidores públicos y particulares sancionados;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                Sistema de información y comunicación del Sistema Estatal;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                 Sistema de denuncias públicas, de faltas administrativas y hechos de corrupción;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                 Sistema de Información Pública de Contrataciones;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                Sistema de seguimiento a las recomendaciones emitidas;
+                                </Typography>
+                            </li>
+                            <li>
+                                <Typography>
+                                Indicadores de evaluación.
+                                </Typography>
+                            </li>
+                        </ol>
+{/* 
                         <Typography paragraph>
                             Bajo este entendido, de conformidad con lo establecido en el artículo 23 de las Bases para el Funcionamiento de la PDN, la SESNA se coordinará con las SESLA, a efecto de determinar su participación en la construcción de los sistemas de la PDN y la forma de interconexión que tendrán con cada uno de los sistemas a nivel local.
                         </Typography>
@@ -235,7 +282,7 @@ export default function CustomizedExpansionPanels() {
                             Asimismo, se recomienda revisar  las especificaciones técnicas y los diccionarios disponibles en la siguiente dirección:
                             <br/>
                             <Link className={classes.link} to='/especificaciones'>https://www.plataformadigitalnacional.org/especificaciones</Link>
-                        </Typography>
+                        </Typography> */}
 
                     </div>
                 </AccordionDetails>
@@ -248,7 +295,7 @@ export default function CustomizedExpansionPanels() {
                 <AccordionDetails>
                     <div>
 
-                        <Typography variant="h6" paragraph>
+                        {/* <Typography variant="h6" paragraph>
                             ¿Cómo funciona la PDN?
                         </Typography>
 
@@ -290,9 +337,9 @@ export default function CustomizedExpansionPanels() {
                                 </li>
                             </ul>
                             <li><Typography>Tecnologías y servicios de software modernos y de código abierto. Las tecnologías que usamos son las siguientes:</Typography></li>
-                        </ol>
+                        </ol> */}
 
-
+{/* 
                         <ul className={classes.ul}>
                             <li className={classes.li}>
                                 <Typography paragraph display='inline'>
@@ -372,8 +419,8 @@ export default function CustomizedExpansionPanels() {
                                 </Typography>
                             </li>
                         </ul>
-
-                        <Typography paragraph variant="h6">
+ */}
+                        {/* <Typography paragraph variant="h6">
                             ¿Qué es la interoperabilidad?
                         </Typography>
 
@@ -413,7 +460,7 @@ export default function CustomizedExpansionPanels() {
 
                         <ButtonPDN target="_blank" href="https://drive.google.com/file/d/1xYlY50lXttiuu0brV5CVd5H8qx96vDsK/view">
                             Guía desarrollo PDE
-                        </ButtonPDN>
+                        </ButtonPDN> */}
 
                         {/*
                         <Typography variant="h6" paragraph>
@@ -428,7 +475,7 @@ export default function CustomizedExpansionPanels() {
                         </Typography>
                         */}
 
-                        <Typography paragraph variant="h6">
+                        {/* <Typography paragraph variant="h6">
                             ¿Qué papel juegan las entidades federativas?
                         </Typography>
 
@@ -447,9 +494,9 @@ export default function CustomizedExpansionPanels() {
 
                         <Typography paragraph>
                             Derivado de lo anterior, dichos formatos empezaron a usarse a partir del 1 de enero de 2020.
-                        </Typography>
+                        </Typography> */}
 
-                        <Typography paragraph variant="h6">
+                        {/* <Typography paragraph variant="h6">
                             ¿Cómo se va a trabajar en la seguridad e integridad de los datos?
                         </Typography>
                         <Typography paragraph>
@@ -464,13 +511,25 @@ export default function CustomizedExpansionPanels() {
                         </Typography>
                         <Typography paragraph>
                             No. El objetivo de la PDN es generar interoperabilidad entre los datos que  generan los sujetos obligados  y es una herramienta de consulta.
+                        </Typography> */}
+                        <Typography variant="h6" paragraph>
+                            ¿Qué papel juega la PDE dentro del Sistema Estatal de Combate a la Corrupción?
+                        </Typography>
+                        <Typography paragraph>
+                        La Plataforma Digital Estatal será la fuente de información fiderigna, herramienta indispensable para el seguimiento de procedimientos
+                         contemplados en la normatividad aplicable y mecanismo de rendición de cuentas en el combate a la corrupción. Por su relevancia en la 
+                         prevención, investigación y sanción de los actos de corrupción, la Plataforma permitirá que las acciones de los órganos ejecutores del 
+                         Sistema Estatal de Combate a la Corrupción, y por tanto destinarios de sus decisiones, así como de los entes públicos con obligaciones 
+                         en materia de combate a la corrupción, se lleven a cabo en función de las finalidades y objetivos para los que fueron instituidos en 
+                         la Constitución Política del Estado Libre y Soberano de Oaxaca, en las leyes secundarias que de ella 
+                        emanen, de conformidad con los estándares nacionales de combate a la corrupción y promoción de la integridad del servicio público.
                         </Typography>
 
                         <Typography variant="h6" paragraph>
-                            ¿La PDN almacenará los datos generados por las instituciones?
+                            ¿La PDE almacenará los datos generados por las instituciones?
                         </Typography>
                         <Typography paragraph>
-                            No, ya que la PDN es una plataforma de consulta, los generadores de la información siguen siendo responsables de  los datos que generan.
+                            No, ya que la PDE es una plataforma de consulta, los generadores de la información siguen siendo responsables de  los datos que generan.
                         </Typography>
 
                         <Typography variant="h6" paragraph>
@@ -478,15 +537,14 @@ export default function CustomizedExpansionPanels() {
                         </Typography>
                         <Typography paragraph>
 
-                            No. Los estándares de datos que serán publicados por la SESNA permiten el control institucional para la consulta de datos reservados o personales.
+                        No, los integrantes del Sistema Estatal de Combate a la Corrupción promoverán la publicación de la información contenida en la plataforma en formato de datos
+                         abiertos, conforme a la Ley de Transparencia, Acceso a la Información Pública y Buen Gobierno del Estado de Oaxaca
 
                         </Typography>
-                        <Typography paragraph>
-                            De acuerdo con lo señalado en la Ley General del Sistema Nacional Anticorrupción, el Comité Coordinador del SNA, es  responsable  de aprobar el catálogo de perfiles de funcionarios que podrán acceder  a los datos reservados.
-                        </Typography>
+                        
 
                         <Typography variant="h6" paragraph>
-                            ¿Quién podrá acceder a la PDN?
+                            ¿Quién podrá acceder a la PDE?
                         </Typography>
                         <Typography paragraph>
                             Se dará acceso a los datos de carácter público a la ciudadanía en general, de conformidad con lo establecido en  la Ley General de Transparencia y Acceso a la Información Pública.
@@ -499,7 +557,7 @@ export default function CustomizedExpansionPanels() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+            {/* <Accordion square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel7d-content" id="panel7d-header">
                     <Typography variant="h6">Protocolo de conexión</Typography>
                 </AccordionSummary>
@@ -563,25 +621,23 @@ export default function CustomizedExpansionPanels() {
                     </div>
                 </AccordionDetails>
             </Accordion>
-
+*/}
 
             <Accordion square expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel9d-content" id="panel9d-header">
-                    <Typography variant="h6">Manual de usuario</Typography>
+                    <Typography variant="h6">Consultar la información pública de la PDN</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div>
-                        <Typography paragraph>
-                            Conoce a detalle las secciones y funcionalidades de la PDN a través del Manual de usuario.
-                        </Typography>
+                        
                         <ButtonPDN
-                            href='https://drive.google.com/file/d/1Fc0bg22fMoBXXxnihUCZBpnM77Je9Wap/view?usp=sharing'
+                            href='https://www.plataformadigitalnacional.org/'
                             target='_blank'>
-                            Manual de usuario
+                            Plataforma Digital Nacional
                         </ButtonPDN>
                     </div>
                 </AccordionDetails>
-            </Accordion>
+            </Accordion> 
 
             <Accordion square expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel10d-content" id="panel10d-header">
@@ -593,8 +649,8 @@ export default function CustomizedExpansionPanels() {
                             Escríbenos si tienes dudas sobre la construcción de la PDN al correo:
                         </Typography>
                         <Typography>
-                            <MuiLink className={classes.link} component='a' href="mailto:pdn@sesna.gob.mx">
-                                pdn@sesna.gob.mx
+                            <MuiLink className={classes.link} component='a' href="mailto:sesecc@oaxaca.gob.mx">
+                            sesecc@oaxaca.gob.mx
                             </MuiLink>
                         </Typography>
                     </div>
