@@ -8,7 +8,7 @@ import withStyles from '@mui/styles/withStyles';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    'backgroundColor': 'rgba(42, 116, 145)',
+    'backgroundColor': 'rgba(50, 150, 146)',
     'color': theme.palette.primario.contrastText,
     'fontSize': 12,
     'whiteSpace': 'normal',
@@ -37,7 +37,7 @@ export default function TypographyMenu(props) {
   const classes = useStyles();
 
   return (
-    <MenuList style={{ backgroundColor: 'rgba(42, 116, 145)' }}>
+    <MenuList style={{ backgroundColor: 'rgba(60, 160, 156)' }}>
       {props.opciones.map((opcion, index) => {
         return (
           <MenuItem key={'opcion-' + index} selected={props.value === index} onClick={e => props.setValue(e, index)} classes={classes}>

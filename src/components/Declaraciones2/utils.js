@@ -81,7 +81,7 @@ export const getMorales = (elements) => {
 /************** Expansion *******************/
 export const sumary = makeStyles((theme) => ({
 	root: {
-		backgroundColor: '#83dfff',
+		backgroundColor: '#27CCAC',
 		textTransform: 'uppercase'
 	}
 }));

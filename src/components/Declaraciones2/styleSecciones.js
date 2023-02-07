@@ -6,18 +6,18 @@ const CssSeccDeclaraciones = theme => ({
     backgroundColor: theme.palette.background.opaque
   },
   tituloSeccion: {
-    color: '#2EB2E7',
+    color: '#FEA142',
     fontSize: 20,
     fontWeight: 'bold'
   },
   tituloSubSeccion: {
-    color: '#2EB2E7',
+    color: '#FEB142',
     fontSize: 14,
     fontWeight: 'bold'
   },
   paper: {
     padding: theme.spacing(2),
-    backgroundColor: 'rgba(42, 116, 145)',
+    backgroundColor: 'rgba(40, 140, 136)',
     marginBottom: theme.spacing(4),
     color: theme.palette.primario.contrastText
   },
@@ -33,7 +33,7 @@ const CssSeccDeclaraciones = theme => ({
     // marginBottom: 10,
     paddingBottom: 10,
     color: '#155724',
-    backgroundColor: '#828282',
+    backgroundColor: '#C4E8E2',
     borderColor: '#c3e6cb',
     border: '1px solid transparent',
     borderRadius: '.25rem',

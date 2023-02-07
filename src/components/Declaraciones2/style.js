@@ -90,7 +90,7 @@ const CssDeclaraciones = theme => ({
     marginTop: 30
   },
   sidebar: {
-    background: '#2EB2E7'
+    background: '#FEB142'
   },
   //Subsecciones
   rootSubseccion: {
@@ -99,7 +99,7 @@ const CssDeclaraciones = theme => ({
   },
   titulo: {
     // fontSize: 12,
-    color: '#2EB2E7',
+    color: '#FEB142',
     fontWeight: 500,
     fontSize: 20,
     marginBottom: 30
@@ -248,7 +248,7 @@ const CssDeclaraciones = theme => ({
   },
   resultadoContenido: {
     // backgroundColor: theme.palette.background.opaque,
-    backgroundColor: 'rgba(42, 116, 145)',
+    backgroundColor: 'rgba(60, 160,156)',
     color: theme.palette.primario.contrastText,
     // borderStyle: 'solid',
     // borderWidth: 1,
@@ -398,7 +398,7 @@ const CssDeclaraciones = theme => ({
     backgroundColor: '#D1ECF1'
   },
   paper_perfil: {
-    backgroundColor: 'rgba(42, 116, 145)',
+    backgroundColor: 'rgba(50, 150, 146)',
     padding: theme.spacing(4),
     marginBottom: theme.spacing(4),
     color: theme.palette.primario.contrastText
@@ -407,7 +407,7 @@ const CssDeclaraciones = theme => ({
     color: theme.palette.primario.contrastText
   },
   menulateral_fondo: {
-    backgroundColor: 'rgba(42, 116, 145)'
+    backgroundColor: '#398482'
   },
   enlaces: {
     'textDecoration': 'none',

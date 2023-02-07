@@ -27,7 +27,7 @@ export default createTheme(
       secundario: {
         main: '#27CCAC',
         light: '#27CCAC',
-        dark: '#0081b3',
+        dark: '#368985',
         contrastText: '#0d3b49',
         linkColor: '#89d4f2'
       },
@@ -39,10 +39,10 @@ export default createTheme(
       },
       background: {
         default: '#46AAA6',
-        opaque: '#398482',
+        opaque: '#398482',//COLOR USADO DE FONDO EN LA MAYORIA DE COMPONENTES Y CARDS
         hoverBotton: '#27CCAC',
         tableBody: '#f2f2f2',
-        paperChart: '#24768f'
+        paperChart: '#368985'
       },
       azulPDN: '#46AAA6',
       yellowColor: '#ffe01b',

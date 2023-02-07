@@ -30,7 +30,7 @@ const useTab = makeStyles(theme => ({
       color: theme.palette.primario.contrastText
     },
     '&.Mui-selected': {
-      backgroundColor: 'rgba(42, 116, 145)',
+      backgroundColor: 'rgba(50,150,146)',
       color: theme.palette.secundario.main,
       fontWeight: 'bolder'
     }
