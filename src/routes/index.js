@@ -3,6 +3,7 @@ import About from '../components/AboutV2/About';
 import Terminos from '../components/Terminos/Terminos';
 import Faq from '../components/FAQ/index';
 import HelpDesk from '../components/HelpDesk/HelpDesk';
+import Contacto from '../components/Contacto/Contacto';
 
 import Sistema2 from '../components/Sistema2/Index';
 import Sancionados from '../components/Sancionados/Index';
@@ -32,6 +33,7 @@ import IconFAQ from "../assets/rediseno/ico_faq.svg";
 import IconEspecificaciones from "../assets/rediseno/ico_especificaciones.svg";
 import IconAbout from "../assets/rediseno/ico_que-es-PDN.svg";
 import IconHelpDesk from "../assets/rediseno/ico_mesa-ayuda.svg";
+import IconContacto from "../assets/rediseno/ico_contacto.svg";
 import IconValidador from "../assets/rediseno/validador.svg";
 import IconCobertura from "../assets/rediseno/ico_cobertura.svg";
 
@@ -224,6 +226,16 @@ const pdnRoutes = [
 		shortName: "",
 		color: "#f2f2f2",
 		icon: IconHelpDesk
+	},
+	{
+		exact: true,
+		path: '/contacto',
+		component: Contacto,
+		private: false,
+		name: "Contacto",
+		shortName: "",
+		color: "#f2f2f2",
+		icon: IconContacto
 	},
 	{
 		exact: true,
