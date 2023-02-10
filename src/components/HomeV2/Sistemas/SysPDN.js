@@ -8,6 +8,9 @@ import IconS3 from "../../../assets/rediseno/ico_sistemas/ico_s3_color.svg"
 import IconS4 from "../../../assets/rediseno/ico_sistemas/ico_s4_color.svg"
 import IconS5 from "../../../assets/rediseno/ico_sistemas/ico_s5_color.svg"
 import IconS6 from "../../../assets/rediseno/ico_sistemas/ico_s6_color.svg"
+import IconS7 from "../../../assets/rediseno/ico_sistemas/ico_s7_color.svg"
+import IconS8 from "../../../assets/rediseno/ico_sistemas/ico_s8_color.svg"
+import IconS9 from "../../../assets/rediseno/ico_sistemas/ico_s9_color.svg"
 
 const styles = theme => ({
     root: {
@@ -17,39 +20,57 @@ const styles = theme => ({
 
 const systems = [
     {
-        name: "Sistema de Declaraciones",
+        name: "istema de evolución patrimonial, declaración de intereses y constancia de presentación de declaración fiscal",
         color: "#F8CAC4",
         icon: IconS1,
         url: "/declaraciones"
     },
     {
-        name: "Sistema de Servidores Públicos en contrataciones",
+        name: "Sistema de los Servidores públicos y particulares que intervengan en procedimientos de contrataciones públicas",
         color: "#D8ACD8",
         icon: IconS2,
         url: "/servidores"
     },
     {
-        name: "Sistema de Sancionados",
-        color: "#C6C1EB",
+        name: "Catálogo de empresas prestadoras de servicios de los Poderes del Estado y Municipios",
+        color: "#FEA142",
         icon: IconS3,
         url: "/sancionados"
     },
     {
-        name: "Sistema de Fiscalización",
-        color: "#C4DDB6",
+        name: "Sistema Estatal de Servidores públicos y particulares sancionados",
+        color: "#C6C1EB",
         icon: IconS4,
         url: "/fiscalizacion"
     },
     {
-        name: "Sistema de Denuncias",
-        color: "#34c9b2",
+        name: "Sistema de información y comunicación del Sistema Estatal",
+        color: "#C4DDB6",
         icon: IconS5,
         url: "/denuncias"
     },
     {
-        name: "Sistema de Contrataciones",
-        color: "#B2DBEB",
+        name: "Sistema de denuncias públicas, de faltas administrativas y hechos de corrupción",
+        color: "#34c9b2",
         icon: IconS6,
+        url: "/contrataciones"
+    },
+    {
+        name: "Sistema de Información Pública de Contrataciones",
+        color: "#B2DBEB",
+        icon: IconS7,
+        url: "/fiscalizacion"
+    },
+    {
+        name: "Sistema de seguimiento a las recomendaciones emitidas",
+        color: "#FEB142",
+        icon: IconS8,
+        url: "/denuncias"
+    },
+    {
+        name: "Indicadores de evaluación",
+        color: "#E6C5C0",
+        icon: IconS9,
         url: "/contrataciones"
     }
 ];
