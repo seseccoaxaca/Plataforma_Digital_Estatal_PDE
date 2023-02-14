@@ -92,7 +92,7 @@ export default function CustomizedDialogs() {
 
   return (
     <>
-      <Button
+      {/* <Button
         className={classes.btnPDN}
         variant="contained"
         size="large"
@@ -101,7 +101,7 @@ export default function CustomizedDialogs() {
         margin={"normal"}
       >
         Asistente de búsqueda
-      </Button>
+      </Button> */}
       <BootstrapDialog
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"

@@ -36,10 +36,10 @@ const Home = props => {
             { /*<Ad/>*/ }
             { user.loggedIn && <Evolucion/> }
             <QueEsPDN/>
-            <Numeralia/>
+            {/* <Numeralia/> */}
             <BlogSys/>
-            <Cards/>
-            <AlertDialog/>
+         {/*    <Cards/>
+            <AlertDialog/> */}
         </div>
     );
 }

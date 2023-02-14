@@ -5,6 +5,11 @@ import {Link as RouterLink} from "react-router-dom";
 import imgHeader from "../../assets/rediseno/PDE_v2_Inv.png";
 import Espe from "../../assets/rediseno/ico_especificaciones.svg";
 import Mesa from "../../assets/rediseno/ico_mesa-ayuda.svg";
+import Inicio from "../../assets/rediseno/inicio.svg";
+import Datos from "../../assets/rediseno/datosdeinteres.svg";
+import Vamos from "../../assets/rediseno/comovamos.svg";
+import Sistema from "../../assets/rediseno/sistemas.svg";
+import Contacto from "../../assets/rediseno/contacto.svg";
 import MDA from "../../assets/rediseno/ico_mda.svg";
 import Sistemas from "../../assets/rediseno/ico_sistemas_f.svg";
 import Interconexion from "../../assets/rediseno/ico_interconexion.svg";
@@ -125,35 +130,61 @@ const BannerDesktop = props => {
                         </RouterLink>
                     </Grid>
                     <Grid item>
+                        
                         <Grid container>
                             <Grid item className={classes.opc}>
-                                <RouterLink className={classes.link} to="/mesa-de-ayuda">
-                                    <img src={Mesa} alt="PDN" className={classes.icon}/>
+                                <RouterLink className={classes.link} to="/">
+                                    <img src={Inicio} alt="PDN" className={classes.icon}/>
                                     <Typography className={classes.textMenu}>
-                                        MESA DE AYUDA
+                                        INICIO
                                     </Typography>
                                 </RouterLink>
                             </Grid>
                             <Grid item className={classes.opc}>
+                                <RouterLink className={classes.link} to="/mesa-de-ayuda">
+                                    <img src={Datos} alt="PDN" className={classes.icon}/>
+                                    <Typography className={classes.textMenu}>
+                                        DATOS DE INTERES
+                                    </Typography>
+                                </RouterLink>
+                            </Grid>
+                            {/* <Grid item className={classes.opc}>
                                 <RouterLink className={classes.link} to="/especificaciones">
                                     <img src={Espe} alt="PDN" className={classes.icon}/>
                                     <Typography className={classes.textMenu}>
                                         ESPECIFICACIONES
                                     </Typography>
                                 </RouterLink>
-                            </Grid>
+                            </Grid> */}
+
                             <Grid item className={`${classes.opc} ${showSistemas ? classes.selected : ""} `}
                                   onClick={() => setShowSistemas(!showSistemas)}>
                                 <img
-                                    src={Sistemas}
+                                    src={Sistema}
                                     className={classes.icon}
                                     alt="Mercado Digital Anticorrupción"
                                 />
                                 <Typography className={classes.textMenu}>
-                                    SISTEMAS
+                                CONOCE NUESTROS 9 SISTEMAS
                                 </Typography>
                             </Grid>
-                            <Grid item className={`${classes.opc} ${showInterconexion ? classes.selected : ""}`}
+                            <Grid item className={classes.opc}>
+                                <RouterLink className={classes.link} to="/cobertura/oaxaca">
+                                    <img src={Vamos} alt="PDN" className={classes.icon}/>
+                                    <Typography className={classes.textMenu}>
+                                        ¿COMO VAMOS?
+                                    </Typography>
+                                </RouterLink>
+                            </Grid>
+                            <Grid item className={classes.opc}>
+                                <RouterLink className={classes.link} to="/contacto">
+                                    <img src={Contacto} alt="PDN" className={classes.icon}/>
+                                    <Typography className={classes.textMenu}>
+                                        CONTACTO
+                                    </Typography>
+                                </RouterLink>
+                            </Grid>
+                     {/*        <Grid item className={`${classes.opc} ${showInterconexion ? classes.selected : ""}`}
                                   onClick={() => setShowInterconexion(!showInterconexion)}>
                                 <img
                                     src={Interconexion}
@@ -163,8 +194,8 @@ const BannerDesktop = props => {
                                 <Typography className={classes.textMenu}>
                                     INTERCONEXIÓN
                                 </Typography>
-                            </Grid>
-                            <Grid item className={classes.opc}>
+                            </Grid> */}
+                        {/*     <Grid item className={classes.opc}>
                                 <Link target={"_blank"} href="https://mda.plataformadigitalnacional.org/"
                                       className={classes.link}
                                       onClick={() => ReactGA.pageview('/mda')}
@@ -178,12 +209,12 @@ const BannerDesktop = props => {
                                         MERCADO DIGITAL
                                     </Typography>
                                 </Link>
-                            </Grid>
+                            </Grid> */}
                         </Grid>
 
                     </Grid>
                     <Grid item/>
-                    {user.loggedIn?
+                  {/*   {user.loggedIn?
 
                         <Grid item style={{textAlign: 'center'}} onClick={() => handleOpenLoginDialog()}>
                             <img
@@ -212,7 +243,7 @@ const BannerDesktop = props => {
                                Iniciar sesión
                             </Typography>
                         </Grid>
-                    }
+                    } */}
                 </Grid>
             </AppBar>
             {showSistemas &&

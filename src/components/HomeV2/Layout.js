@@ -18,9 +18,9 @@ const Layout = ({children})=>{
                 <Banner/>
                 <Version/>
                 {children}
-                <AsistenteBusqueda/>
+                {/* <AsistenteBusqueda/>
                 <Glosario/>
-                <ChatBotPDN />
+                <ChatBotPDN /> */}
                 <Footer/>
             </div>            
         </React.Fragment>

@@ -80,7 +80,7 @@ const QueEsPDN = props => {
                     </Typography>
                     <BuscadorModal />
                 </Grid>
-                <Grid item md={6} sm={12} xs={12} align="left" >
+                <Grid item md={6} sm={24} xs={12} align="left" >
                     <Typography className={classes.text} paragraph>
                     La <b>Plataforma Digital Estatal (PDE)</b> del Sistema Estatal de Combate  a la Corrupción (SECC) es un <b>instrumento de inteligencia</b> que tiene como objetivo eliminar las barreras de información para que los datos públicos sean comparables, accesibles y utilizables a efecto de combatir cualquier acto de corrupción.<br/><br/>
                     <b>La Secretaría Ejecutiva del Sistema Estatal de Combate  a la Corrupción (SESECC)</b>, organismo descentralizado no sectorizado, es responsable de administrar la <b>PDE</b>.<br/><br/>
@@ -89,9 +89,9 @@ const QueEsPDN = props => {
 
                     <Grid container direction="row" justifyContent="flex-end" alignItems="flex-end">
                         <Grid item md={12} sm={12} xs={12} align="right">
-                            <Link className={classes.link} to="/about">
+                            {/* <Link className={classes.link} to="/about">
                                 <Button variant="contained" className={classes.btnPDN}>Conoce más</Button>
-                            </Link>
+                            </Link> */}
                         </Grid>
                     </Grid>
                 

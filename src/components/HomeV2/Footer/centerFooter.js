@@ -18,10 +18,7 @@ const CenterFooter = props => {
         <Grid container direction={'row'} justifyContent={'center'} alignItems={'stretch'}>
           <Grid item xs={4}>
             <Grid container direction='column' justifyContent='flex-start' alignItems='flex-end' className={classes.centerFoot_left}>
-              <Grid item style={{ textAlign: 'right' }}>
-                {/* <Typography variant='subtitle1' style={{ color: '#FFF' }}>
-                  <strong>Sistemas PDN</strong>
-                </Typography> */}
+              {/* <Grid item style={{ textAlign: 'right' }}>
                 <Typography variant='subtitle1'>
                   <Link href='https://www.plataformadigitalnacional.org/mapa-avance/' target='_blank' underline='none' className={classes.enlaces} onClick={()=>ReactGA.pageview('/mapa-avance')}>
                     Avances de Interconexión
@@ -32,7 +29,7 @@ const CenterFooter = props => {
                     Mercado Digital Anticorrupción
                   </Link>
                 </Typography>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={1}>
@@ -40,7 +37,7 @@ const CenterFooter = props => {
           </Grid>
           <Grid item>
             <Grid container direction='column' justifyContent='flex-start' alignItems='flex-start' className={classes.centerFoot_right}>
-              <Grid item>
+              {/* <Grid item>
                 <Typography variant='subtitle1'>
                   <RouterLink to={'/faq'} className={classes.enlaces}>
                     Preguntas frecuentes
@@ -56,8 +53,8 @@ const CenterFooter = props => {
                     Boletines y prensa
                   </Link>
                 </Typography>
-                {/* <Typography variant='subtitle1'>Suscribete</Typography> */}
-              </Grid>
+                
+              </Grid> */}
             </Grid>
           </Grid>
         </Grid>

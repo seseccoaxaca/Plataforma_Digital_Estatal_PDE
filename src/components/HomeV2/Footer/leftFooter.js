@@ -43,27 +43,27 @@ const LeftFooter = props => {
       </Grid>
       <Grid item className={classes.acercade}>
         <Grid container spacing={0} direction={'row'} justifyContent={'flex-end'} alignItems={'center'}>
-          <Grid item>
+          {/* <Grid item>
             <Link href='https://creativecommons.org/licenses/by-nc/4.0/deed.es' rel='license' target='_blank' onClick={()=>ReactGA.event({ category: 'licencia-creative-commons', action: 'click' })}>
               <figure className={classes.figure}>
                 <img alt='Creative Commons License' style={{ borderWidth: 0, width: 110, marginRight: 40 }} src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' />
               </figure>
             </Link>
-          </Grid>
+          </Grid> */}
           <Grid item>
             <RouterLink to={'/about'} className={classes.acercade_enlace}>
-              Acerca de la PDN
+              Acerca de la Platafoma Digital Estatal
             </RouterLink>
           </Grid>
         </Grid>
       </Grid>
-      <Grid item>
+      {/* <Grid item>
         <Link href='https://github.com/orgs/PDNMX/'  style={{pointerEvents: "none"}} target='_blank' onClick={()=>ReactGA.event({ category: 'github-pdn', action: 'click' })}>
           <figure className={classes.figure}>
             <img alt='GitHub' src={icon_github} className={classes.image} style={{ marginTop: '10px', width: '80px' }} />
           </figure>
         </Link>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };

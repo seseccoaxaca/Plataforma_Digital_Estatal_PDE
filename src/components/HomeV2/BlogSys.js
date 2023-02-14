@@ -16,14 +16,10 @@ const BlogSys = props => {
     const {classes} = props;
     return (
         <div className={classes.root}>
-            <Grid container spacing={2}>
-                <Grid item xs={12} md={5} lg={4} xl={4}>
-                    <BlogComponent/>
-                </Grid>
-
-                <Grid item xs={12} md={7} lg={8} xl={8}>
+            <Grid container justifyContent="center" >
+      
                     <SysPDN/>
-                </Grid>
+              
             </Grid>
         </div>
     );

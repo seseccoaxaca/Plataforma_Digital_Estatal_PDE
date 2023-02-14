@@ -29,13 +29,11 @@ import IconS6 from "../assets/rediseno/ico_sistemas/ico_s6_color.svg";
 import IconS1 from "../assets/rediseno/ico_sistemas/ico_s1_color.svg";
 import IconS4 from "../assets/rediseno/ico_sistemas/ico_s4_color.svg";
 import IconS5 from "../assets/rediseno/ico_sistemas/ico_s5_color.svg";
-import IconS7 from "../assets/rediseno/ico_sistemas/ico_s7_color.svg";
-import IconS8 from "../assets/rediseno/ico_sistemas/ico_s8_color.svg";
-import IconS9 from "../assets/rediseno/ico_sistemas/ico_s9_color.svg";
 import IconFAQ from "../assets/rediseno/ico_faq.svg";
 import IconEspecificaciones from "../assets/rediseno/ico_especificaciones.svg";
 import IconAbout from "../assets/rediseno/ico_que-es-PDN.svg";
 import IconHelpDesk from "../assets/rediseno/ico_mesa-ayuda.svg";
+import IconDatosdeInteres from "../assets/rediseno/datosdeinteres.svg";
 import IconContacto from "../assets/rediseno/ico_contacto.svg";
 import IconValidador from "../assets/rediseno/validador.svg";
 import IconCobertura from "../assets/rediseno/ico_cobertura.svg";
@@ -84,21 +82,10 @@ const pdnRoutes = [
 		path: '/sancionados',
 		component: Sancionados,
 		private: false,
-		name: "Catálogo de empresas prestadoras de servicios de los Poderes del Estado y Municipios",
-		shortName: "Catálogo de empresas",
-		color: "#FEA142",
-		icon: IconS3,
-		disabled: false,
-		type:'system'
-	},{
-		exact: true,
-		path: '/sancionados',
-		component: Sancionados,
-		private: false,
 		name: "Sistema nacional de servidores públicos y particulares sancionados",
 		shortName: "Sistema de Sancionados",
-		color: "#FEA142",
-		icon: IconS4,
+		color: "#C6C1EB",
+		icon: IconS3,
 		disabled: false,
 		type:'system'
 	},
@@ -107,10 +94,10 @@ const pdnRoutes = [
 		path: '/fiscalizacion',
 		component: Sistema4,
 		private: false,
-		name: "Sistema de información y comunicación del Sistema Estatal Anticorrupción",
+		name: "Sistema de información y comunicación del Sistema Nacional Anticorrupción y del Sistema Nacional de Fiscalización",
 		shortName: "Sistema de Fiscalización",
-		color: "C6C1EB",
-		icon: IconS5,
+		color: "#C4DDB6",
+		icon: IconS4,
 		disabled: true,
 		type: "system"
 	},
@@ -121,8 +108,8 @@ const pdnRoutes = [
 		private: false,
 		name: "Sistema de denuncias públicas de faltas administrativas y hechos de corrupción",
 		shortName: "Sistema de Denuncias",
-		color: "#C4DDB6",
-		icon: IconS6,
+		color: "#34c9b2",
+		icon: IconS5,
 		disabled: true,
 		type: "system"
 	},
@@ -133,7 +120,7 @@ const pdnRoutes = [
 		private: false,
 		name: "Sistema de información pública de contrataciones",
 		shortName: "Sistema de Contrataciones",
-		color: "#34c9b2",
+		color: "#B2DBEB",
 		icon: IconS6,
 		disabled: false,
 		type: "system"
@@ -146,7 +133,31 @@ const pdnRoutes = [
 		name: "Sistema de información pública de contrataciones",
 		shortName: "Sistema de Contrataciones",
 		color: "#B2DBEB",
-		icon: IconS7,
+		icon: IconS6,
+		disabled: false,
+		type: "system"
+	},
+	{
+		exact: true,
+		path: '/contrataciones',
+		component: Sistema6,
+		private: false,
+		name: "Sistema de información pública de contrataciones",
+		shortName: "Sistema de Contrataciones",
+		color: "#B2DBEB",
+		icon: IconS6,
+		disabled: false,
+		type: "system"
+	},
+	{
+		exact: true,
+		path: '/contrataciones',
+		component: Sistema6,
+		private: false,
+		name: "Sistema de información pública de contrataciones",
+		shortName: "Sistema de Contrataciones",
+		color: "#B2DBEB",
+		icon: IconS6,
 		disabled: false,
 		type: "system"
 	},
@@ -248,10 +259,10 @@ const pdnRoutes = [
 		path: '/mesa-de-ayuda',
 		component: HelpDesk,
 		private: false,
-		name: "Mesa de ayuda",
+		name: "Datos de Interes",
 		shortName: "",
 		color: "#f2f2f2",
-		icon: IconHelpDesk
+		icon: IconDatosdeInteres
 	},
 	{
 		exact: true,
@@ -268,20 +279,18 @@ const pdnRoutes = [
 		path: '/cobertura',
 		component: Cobertura,
 		private: false,
-		name: "Cobertura",
-		shortName: "Cobertura",
+		name: "Indicadores de conexiones",
+		shortName: "Indicadores de conexiones",
 		color: "#f2f2f2",
-		icon: IconCobertura
 	},
 	{
 		exact: true,
 		path: '/cobertura/:id_estado',
 		component: CoberturaVistaIndividual,
 		private: false,
-		name: "Cobertura",
-		shortName: "Cobertura",
+		name: "Indicadores de conexiones",
+		shortName: "Indicadores de conexiones",
 		color: "#f2f2f2",
-		icon: IconCobertura
 	}
 ];
 

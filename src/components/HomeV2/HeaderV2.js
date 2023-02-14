@@ -67,7 +67,7 @@ function HeaderV2(props) {
                               sx={{display: 'flex', alignItems: 'center'}}
                               color='#ffffff' to="/">
                             <HomeIcon sx={{mr: 0.5}} fontSize="inherit"/>
-                            Plataforma Digital Nacional
+                            Plataforma Digital Estatal
                         </Link>
 
                         {section.path.includes('/especificaciones/') &&
