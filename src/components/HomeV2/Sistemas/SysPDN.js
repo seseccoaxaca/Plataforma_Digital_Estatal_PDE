@@ -94,9 +94,9 @@ const SysPDN = props => {
             </CustomTypography>
 
             <CustomTypography fontWeight="100" paragraph>
-                El desarrollo de la <b>PDE</b> considera seis sistemas que integran datos estratégicos para la lucha
+                El desarrollo de la <b>PDE</b> considera nueve sistemas que integran datos estratégicos para la lucha
                 contra la corrupción, contemplados en
-                la <b>Ley General del Sistema Nacional Anticorrupción (LGSNA).</b>
+                la <b>Ley del Sistema Estatal de Combate a la Corrupción.</b>
             </CustomTypography>
 
             <Box display="flex" flexWrap="wrap" justifyContent = {justify}>

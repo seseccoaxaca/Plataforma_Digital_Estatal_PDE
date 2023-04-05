@@ -74,9 +74,13 @@ const Funciones = props => {
             
 
             <Typography paragraph justifyContent='center'>
-           Responsable de la conceptualización, desarrollo e implementación de la Plataforma Digital Nacional Anticorrupción. Desarrollo de 
-           estándares de datos para sectores como declaraciones patrimoniales y de intereses, compras 
-           públicas, personas sancionadas, y denuncias. Uso de tecnologías exponenciales para prevenir, detectar, investigar y sancionar actos de corrupción.
+            Desarrollar proyectos, planes de trabajo, celebrar reuniones y demás actividades que impulsen las acciones 
+            encaminadas al debido funcionamiento de la Plataforma Digital Estatal de manera programada y sistemática, 
+            estableciendo también los mecanismos que garanticen una debida vinculación interinstitucional que permita 
+            el cumplimiento de los objetivos de la Ley del Sistema Estatal de Combate a la Corrupción; así como, 
+            la vigilancia de manera permanente para que las autoridades integrantes del Sistema Estatal de Combate 
+            a la Corrupción incorporen a los diferentes sistemas electrónicos de la Plataforma Digital Estatal la 
+            información requerida y se mantenga debidamente actualizada.
             </Typography>
          </Paper>
             
