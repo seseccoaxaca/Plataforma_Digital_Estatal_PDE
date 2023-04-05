@@ -69,7 +69,7 @@ const Funciones = props => {
          <Paper className={classes.container}>
             
             <Typography variant="h5" className={classes.subTitle}>
-            Desarrollo
+            
             </Typography>
             
 
