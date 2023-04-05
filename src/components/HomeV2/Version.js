@@ -41,7 +41,8 @@ function Version(props){
             {user.loggedIn &&
                 <div className={classes.bienvenida}>
                     <Typography display={'inline'}>
-                        <b> Bienvenido {`${user.nombres} ${user.primerApellido}`} - {user.username}</b>
+                        <b> Bienvenido </b>
+                        {/* <b> Bienvenido {`${user.nombres} ${user.primerApellido}`} - {user.username}</b> */}
                     </Typography>
                 </div>
             }
