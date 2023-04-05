@@ -90,11 +90,11 @@ const SysPDN = props => {
     return (
         <div className={classes.root}>
             <CustomTypography variant="h3" fontWeight="bold" paragraph>
-                Sistemas de la PDN
+                Sistemas de la PDE
             </CustomTypography>
 
             <CustomTypography fontWeight="100" paragraph>
-                El desarrollo de la <b>PDN</b> considera seis sistemas que integran datos estratégicos para la lucha
+                El desarrollo de la <b>PDE</b> considera seis sistemas que integran datos estratégicos para la lucha
                 contra la corrupción, contemplados en
                 la <b>Ley General del Sistema Nacional Anticorrupción (LGSNA).</b>
             </CustomTypography>

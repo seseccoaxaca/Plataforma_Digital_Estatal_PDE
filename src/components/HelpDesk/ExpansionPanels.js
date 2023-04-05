@@ -625,7 +625,7 @@ export default function CustomizedExpansionPanels() {
 
             <Accordion square expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel9d-content" id="panel9d-header">
-                    <Typography variant="h6">Consultar la información pública de la PDN</Typography>
+                    <Typography variant="h6">Consultar la información pública de la PDE</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div>
@@ -633,7 +633,7 @@ export default function CustomizedExpansionPanels() {
                         <ButtonPDN
                             href='https://www.plataformadigitalnacional.org/'
                             target='_blank'>
-                            Plataforma Digital Nacional
+                            Plataforma Digital Estatal
                         </ButtonPDN>
                     </div>
                 </AccordionDetails>

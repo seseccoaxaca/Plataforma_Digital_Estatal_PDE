@@ -157,11 +157,11 @@ const VistaDetalleEstado = props => {
 
                         <Paper elevation={15} sx={{ m:1, p: 2, textAlign: "center", maxWidth: 200 }} className={classes.paper}>
                             <Typography variant="h5" color="white" sx={{fontWeight: 'bold'}}>
-                                Instituciones en la PDN
+                                Instituciones en la PDE
                             </Typography>
 
                             {/*<Typography variant="body2" color="white">
-                                Información de instituciones en la PDN
+                                Información de instituciones en la PDE
                             </Typography>*/}
 
                             <Typography variant="h4" color={colors.s1} sx={{fontWeight: 'bold'}}>
