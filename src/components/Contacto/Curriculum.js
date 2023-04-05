@@ -77,16 +77,13 @@ const Curriculum = props => {
             </Typography>
 
             <Typography paragraph style={{ marginTop: 40, borderRadius: 20, border: 2 }}>
-            Ha ocupado diversos cargos en el sector público, entre los que se encuentran: Director de Asuntos Contenciosos en la entonces Comisión 
-    Federal de Competencia(COFECO); Director de Normatividad y Consulta en la Unidad de Asuntos Jurídicos, así como Director General 
-    Adjunto de la Unidad de Planeación y Evaluación de Políticas Educativas, ambos cargos en la Secretaría de la Educación Pública (SEP); 
-    Director de lo Contencioso de Acceso y Director de lo Contencioso de Datos, en el otrora Instituto Federal de Acceso a la Información 
-    Pública y Protección de Datos (IFAI); así como Director de Proyectos y Coordinación en la Autoridad Investigadora del Instituto Federal 
-    de Telecomunicaciones (IFT). Es Licenciado en Derecho egresado de la Facultad de Derecho de la Universidad Nacional Autónoma de México 
-    y Maestro en Derecho de las Tecnologías de Información y Comunicación por el INFOTEC, Centro de Investigación e Innovación en Tecnologías 
-    de la Información y Comunicación del CONACYT. Es autor del libro “El Derecho de acceso a la información en México, su ejercicio y medios 
-    de impugnación”, así como de diversos artículos y ensayos en revistas especializadas como: “El Mundo del Abogado”, “Ars Iuris” de 
-    la Universidad Panamericana y la “Revista en Derecho, Comunicaciones y Nuevas Tecnologías” de la Universidad de los Andes de Colombia.
+            Ha ocupado diversos cargos en el sector público, tanto federal, estatal como municipal; entre los que se encuentran: 
+            Titular de los Departamentos de Revisión y Seguimiento a Procedimientos de Contratación de Obra Pública; así como, 
+            en el de Registro de Entidades Paraestatales, ambos en la Secretaría de la Contraloría y Transparencia Gubernamental; 
+            Subjefe de Departamento en el Instituto Nacional de Estadística y Geografía (INEGI); Jefe del Departamento de Políticas Públicas 
+            de la Secretaría Ejecutiva del Sistema Estatal de Combate a la Corrupción (SESECC); también ha desempeñado el cargo de 
+            Secretario Municipal en el Honorable Ayuntamiento de Reyes Etla,Oax. De donde es originario. Es egresado del Instituto 
+            Tecnológico de Oaxaca de la Licenciatura en Administración de Empresas.
             </Typography>
 
             
