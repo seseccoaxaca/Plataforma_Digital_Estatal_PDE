@@ -125,7 +125,7 @@ const VistaDetalleEstado = props => {
                     </Typography>
 
                     <Typography align="center" color="white" paragraph>
-                        Información al 30 de septiembre del 2022, reportada por las Secretarías Ejecutivas del Sistema Anticorrupción Estatal
+                        Información al 30 de septiembre del 2022, reportada por los Entes Públicos del Sistema Estatal de Combate a la Corrupción
                     </Typography>
 
                     <Box sx={{display: 'flex', flexWrap: "wrap", alignItems: "stretch"}} justifyContent="center">
