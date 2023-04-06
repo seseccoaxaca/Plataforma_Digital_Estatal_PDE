@@ -10,6 +10,9 @@ import Sancionados from '../components/Sancionados/Index';
 import Sistema4 from '../components/Sistema4';
 import Sistema5 from '../components/Sistema5';
 import Sistema6 from '../components/Sistema6/index';
+import Sistema7 from '../components/Sistema6/index';
+import Sistema8 from '../components/Sistema6/index';
+import Sistema9 from '../components/Sistema6/index';
 
 import Validador from '../components/Validador/index';
 import Especificaciones from '../components/Especificaciones/Landing/Especificaciones';
@@ -29,6 +32,9 @@ import IconS6 from "../assets/rediseno/ico_sistemas/ico_s6_color.svg";
 import IconS1 from "../assets/rediseno/ico_sistemas/ico_s1_color.svg";
 import IconS4 from "../assets/rediseno/ico_sistemas/ico_s4_color.svg";
 import IconS5 from "../assets/rediseno/ico_sistemas/ico_s5_color.svg";
+import IconS7 from "../assets/rediseno/ico_sistemas/ico_s7_color.svg";
+import IconS8 from "../assets/rediseno/ico_sistemas/ico_s8_color.svg";
+import IconS9 from "../assets/rediseno/ico_sistemas/ico_s9_color.svg";
 import IconFAQ from "../assets/rediseno/ico_faq.svg";
 import IconEspecificaciones from "../assets/rediseno/ico_especificaciones.svg";
 import IconAbout from "../assets/rediseno/ico_que-es-PDN.svg";
@@ -58,7 +64,7 @@ const pdnRoutes = [
 		path: '/declaraciones',
 		component: DeclaracionesS1v2,
 		private: false,
-		name: "Sistema de evolución patrimonial, de declaración de intereses y constancia de presentación de declaración fiscal",
+		name: "Sistema de evolución patrimonial, declaración de intereses y constancias de presentación de declaración fiscal",
 		shortName: "Sistema de Declaraciones",
 		color: "#F8CAC4",
 		icon: IconS1,
@@ -70,7 +76,7 @@ const pdnRoutes = [
 		path: '/servidores',
 		component: Sistema2,
 		private: false,
-		name: "Sistema de los servidores públicos que intervengan en procedimientos de contrataciones públicas",
+		name: "Sistema de los Servidores públicos y particulares que intervengan en procedimientos de contrataciones públicas",
 		shortName: "Sistema de Servidores Públicos en contrataciones",
 		color: "#D8ACD8",
 		icon: IconS2,
@@ -82,8 +88,8 @@ const pdnRoutes = [
 		path: '/sancionados',
 		component: Sancionados,
 		private: false,
-		name: "Sistema nacional de servidores públicos y particulares sancionados",
-		shortName: "Sistema de Sancionados",
+		name: "Catálogo de empresas prestadoras de servicios de los Poderes del Estado y Municipios",
+		shortName: "Empresas Prestadoras de Servicios",
 		color: "#C6C1EB",
 		icon: IconS3,
 		disabled: false,
@@ -94,8 +100,8 @@ const pdnRoutes = [
 		path: '/fiscalizacion',
 		component: Sistema4,
 		private: false,
-		name: "Sistema de información y comunicación del Sistema Nacional Anticorrupción y del Sistema Nacional de Fiscalización",
-		shortName: "Sistema de Fiscalización",
+		name: "Sistema Estatal de Servidores públicos y particulares sancionados",
+		shortName: "Sistema de Sancionados",
 		color: "#C4DDB6",
 		icon: IconS4,
 		disabled: true,
@@ -106,8 +112,8 @@ const pdnRoutes = [
 		path: '/denuncias',
 		component: Sistema5,
 		private: false,
-		name: "Sistema de denuncias públicas de faltas administrativas y hechos de corrupción",
-		shortName: "Sistema de Denuncias",
+		name: "Sistema de información y comunicación del Sistema Estatal",
+		shortName: "Sistema de Información",
 		color: "#34c9b2",
 		icon: IconS5,
 		disabled: true,
@@ -118,8 +124,8 @@ const pdnRoutes = [
 		path: '/contrataciones',
 		component: Sistema6,
 		private: false,
-		name: "Sistema de información pública de contrataciones",
-		shortName: "Sistema de Contrataciones",
+		name: "Sistema de denuncias públicas, de faltas administrativas y hechos de corrupción",
+		shortName: "Sistema de Denuncias",
 		color: "#B2DBEB",
 		icon: IconS6,
 		disabled: false,
@@ -128,36 +134,36 @@ const pdnRoutes = [
 	{
 		exact: true,
 		path: '/contrataciones',
-		component: Sistema6,
+		component: Sistema7,
 		private: false,
-		name: "Sistema de información pública de contrataciones",
+		name: "Sistema de Información Pública de Contrataciones",
 		shortName: "Sistema de Contrataciones",
 		color: "#B2DBEB",
-		icon: IconS6,
+		icon: IconS7,
 		disabled: false,
 		type: "system"
 	},
 	{
 		exact: true,
 		path: '/contrataciones',
-		component: Sistema6,
+		component: Sistema8,
 		private: false,
-		name: "Sistema de información pública de contrataciones",
-		shortName: "Sistema de Contrataciones",
+		name: "Sistema de seguimiento a las recomendaciones emitidas",
+		shortName: "Sistema de Seguimiento",
 		color: "#B2DBEB",
-		icon: IconS6,
+		icon: IconS8,
 		disabled: false,
 		type: "system"
 	},
 	{
 		exact: true,
 		path: '/contrataciones',
-		component: Sistema6,
+		component: Sistema9,
 		private: false,
-		name: "Sistema de información pública de contrataciones",
-		shortName: "Sistema de Contrataciones",
+		name: "Indicadores de evaluación",
+		shortName: "Sistema de Indicadores",
 		color: "#B2DBEB",
-		icon: IconS6,
+		icon: IconS9,
 		disabled: false,
 		type: "system"
 	},

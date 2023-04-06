@@ -20,7 +20,7 @@ const styles = theme => ({
 
 const systems = [
     {
-        name: "Sistema de evolución patrimonial, declaración de intereses y constancia de presentación de declaración fiscal",
+        name: "Sistema de evolución patrimonial, declaración de intereses y constancias de presentación de declaración fiscal",
         color: "#F8CAC4",
         icon: IconS1,
         url: "/declaraciones"
