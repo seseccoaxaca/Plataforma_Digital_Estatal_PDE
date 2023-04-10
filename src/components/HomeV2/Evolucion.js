@@ -44,7 +44,7 @@ const styles = theme => ({
 
 const Evolucion = props => {
     const {classes} = props;
-    const url_herramienta = "https://evolucion.plataformadigitalnacional.org";
+    const url_herramienta = "http://192.168.0.70";
     const url_manual = "https://drive.google.com/file/d/1hZgaoSR6r2_vu0KyUNqkboaZ7dTucW_G/view";
 
     return <div className={classes.root}>
