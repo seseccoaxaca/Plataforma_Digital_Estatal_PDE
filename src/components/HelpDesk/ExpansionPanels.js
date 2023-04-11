@@ -516,7 +516,7 @@ export default function CustomizedExpansionPanels() {
                             ¿Qué papel juega la PDE dentro del Sistema Estatal de Combate a la Corrupción?
                         </Typography>
                         <Typography paragraph>
-                        La Plataforma Digital Estatal será la fuente de información fiderigna, herramienta indispensable para el seguimiento de procedimientos
+                        La Plataforma Digital Estatal será la fuente de información fidedigna, herramienta indispensable para el seguimiento de procedimientos
                          contemplados en la normatividad aplicable y mecanismo de rendición de cuentas en el combate a la corrupción. Por su relevancia en la 
                          prevención, investigación y sanción de los actos de corrupción, la Plataforma permitirá que las acciones de los órganos ejecutores del 
                          Sistema Estatal de Combate a la Corrupción, y por tanto destinarios de sus decisiones, así como de los entes públicos con obligaciones 
@@ -631,7 +631,7 @@ export default function CustomizedExpansionPanels() {
                     <div>
                         
                         <ButtonPDN
-                            href='https://www.plataformadigitalnacional.org/'
+                            href='http://192.168.0.70'
                             target='_blank'>
                             Plataforma Digital Estatal
                         </ButtonPDN>
@@ -646,7 +646,7 @@ export default function CustomizedExpansionPanels() {
                 <AccordionDetails>
                     <div>
                         <Typography paragraph>
-                            Escríbenos si tienes dudas sobre la construcción de la PDN al correo:
+                            Escríbenos si tienes dudas sobre la construcción de la PDE al correo:
                         </Typography>
                         <Typography>
                             <MuiLink className={classes.link} component='a' href="mailto:sesecc@oaxaca.gob.mx">

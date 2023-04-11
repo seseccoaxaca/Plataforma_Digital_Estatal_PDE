@@ -35,10 +35,10 @@ const Herramientas = props => {
             <Typography variant="h4" paragraph >Desarrollo web</Typography>
 
             <Typography paragraph>
-                La interoperabilidad entre los sistemas informáticos de las Instituciones y la PDN se establece a través de servicios web o APIs que intercambian información a través de Internet.
+                La interoperabilidad entre los sistemas informáticos de las Instituciones y la PDE se establece a través de servicios web o APIs que intercambian información a través de Internet.
             </Typography>
             <Typography paragraph>
-                La comunicación con la PDN se realiza a través de servicios basados en el modelo REST (REpresentational State Transfer), una tecnología ampliamente usada para el desarrollo de aplicaciones web.
+                La comunicación con la PDE se realiza a través de servicios basados en el modelo REST (REpresentational State Transfer), una tecnología ampliamente usada para el desarrollo de aplicaciones web.
             </Typography>
             <Typography paragraph>
                 Existe gran variedad de herramientas de código abierto que facilitan el desarrollo de APIs REST, usando diversos lenguajes de programación y tecnologías de bases de datos.

@@ -37,7 +37,7 @@ import IconS8 from "../assets/rediseno/ico_sistemas/ico_s8_color.svg";
 import IconS9 from "../assets/rediseno/ico_sistemas/ico_s9_color.svg";
 import IconFAQ from "../assets/rediseno/ico_faq.svg";
 import IconEspecificaciones from "../assets/rediseno/ico_especificaciones.svg";
-import IconAbout from "../assets/rediseno/ico_que-es-PDN.svg";
+import IconAbout from "../assets/rediseno/ico_que-es-PDE.svg";
 import IconHelpDesk from "../assets/rediseno/ico_mesa-ayuda.svg";
 import IconDatosdeInteres from "../assets/rediseno/datosdeinteres.svg";
 import IconContacto from "../assets/rediseno/ico_contacto.svg";
@@ -226,8 +226,8 @@ const pdnRoutes = [
 		path: '/about',
 		component: About,
 		private: false,
-		name: "¿Qué es la Plataforma Digital Nacional?",
-		shortName: "¿Qué es la PDN?",
+		name: "¿Qué es la Plataforma Digital Estatal?",
+		shortName: "¿Qué es la PDE?",
 		color: "#f2f2f2",
 		icon: IconAbout
 	},

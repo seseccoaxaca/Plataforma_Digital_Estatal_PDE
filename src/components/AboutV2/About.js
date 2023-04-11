@@ -11,6 +11,9 @@ import S3 from "@assets/rediseno/sistemas_sin_fondo/btn-s3.svg";
 import S4 from "@assets/rediseno/sistemas_sin_fondo/btn-s4.svg";
 import S5 from "@assets/rediseno/sistemas_sin_fondo/btn-s5.svg";
 import S6 from "@assets/rediseno/sistemas_sin_fondo/btn-s6.svg";
+import S7 from "@assets/rediseno/sistemas_sin_fondo/btn-s7.svg";
+import S8 from "@assets/rediseno/sistemas_sin_fondo/btn-s8.svg";
+import S9 from "@assets/rediseno/sistemas_sin_fondo/btn-s9.svg";
 
 const styles = theme => ({
     root: {
@@ -90,41 +93,56 @@ const About = props => {
                     <Box className={classes.box}>
 
                         <CustomTypography paragraph>
-                            Usando la PDN, las autoridades encargadas de la lucha anticorrupción pueden tomar decisiones basadas en evidencia a partir de grandes cantidades de datos.
+                            Usando la PDE, las autoridades encargadas de la lucha anticorrupción pueden tomar decisiones basadas en evidencia a partir de grandes cantidades de datos.
                         </CustomTypography>
 
                         <CustomTypography paragraph>
-                            El desarrollo de la PDN considera seis sistemas contemplados en la Ley General del Sistema Nacional Anticorrupción (LGSNA):
+                            El desarrollo de la PDE considera nueve sistemas contemplados en la Ley del Sistema Estatal de Combate a la Corrupción:
                         </CustomTypography>
 
                         <Typography color={'S1.color'} display={'inline'}>Sistema 1 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Evolución patrimonial, de declaración de intereses y constancia de presentación de declaración fiscal (S1).
+                            Sistema de los Servidores públicos y particulares que intervengan en procedimientos de contrataciones públicas (S1).
                         </CustomTypography>
                         <br/>
                         <Typography color={'S2.color'} display={'inline'}>Sistema 2 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Servidores públicos que intervengan en procedimientos de contrataciones públicas (S2).
+                            Sistema de los Servidores públicos y particulares que intervengan en procedimientos de contrataciones públicas (S2).
                         </CustomTypography>
                         <br/>
                         <Typography color={'S3.color'} display={'inline'}>Sistema 3 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Servidores públicos y particulares sancionados (S3).
+                            Catálogo de empresas prestadoras de servicios de los Poderes del Estado y Municipios (S3).
                         </CustomTypography>
                         <br/>
                         <Typography color={'S4.color'} display={'inline'}>Sistema 4 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Información y comunicación del Sistema Nacional Anticorrupción y del Sistema Nacional de Fiscalización (S4).
+                            Sistema Estatal de Servidores públicos y particulares sancionados (S4).
                         </CustomTypography>
                         <br/>
                         <Typography color={'S5.color'} display={'inline'}>Sistema 5 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Denuncias públicas de  faltas administrativas y hechos de corrupción (S5).
+                            Sistema de información y comunicación del Sistema Estatal (S5).
                         </CustomTypography>
                         <br/>
                         <Typography color={'S6.color'} display={'inline'}>Sistema 6 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Información Pública de Contrataciones (S6).
+                            Sistema de denuncias públicas, de faltas administrativas y hechos de corrupción (S6).
+                        </CustomTypography>
+                        <br/>
+                        <Typography color={'S1.color'} display={'inline'}>Sistema 7 | </Typography>
+                        <CustomTypography display={'inline'}>
+                            Sistema de Información Pública de Contrataciones (S7).
+                        </CustomTypography>
+                        <br/>
+                        <Typography color={'S2.color'} display={'inline'}>Sistema 8 | </Typography>
+                        <CustomTypography display={'inline'}>
+                            Sistema de seguimiento a las recomendaciones emitidas (S8).
+                        </CustomTypography>
+                        <br/>
+                        <Typography color={'S3.color'} display={'inline'}>Sistema 9 | </Typography>
+                        <CustomTypography display={'inline'}>
+                            Indicadores de evaluación (S9).
                         </CustomTypography>
 
                         <Grid container spacing={0} justifyContent='center'>
@@ -160,37 +178,51 @@ const About = props => {
                                             <img src={S6} alt="" className={classes.sistemas}/>
                                         </RouterLink>
                                     </Grid>
-
+                                    <Grid item xs={12} md={6} lg={4} xl={2} align="center">
+                                        <RouterLink to="/declaraciones" className={classes.link}>
+                                            <img src={S7} alt="" className={classes.sistemas}/>
+                                        </RouterLink>
+                                    </Grid>
+                                    <Grid item xs={12} md={6} lg={4} xl={2} align="center">
+                                        <RouterLink to="/declaraciones" className={classes.link}>
+                                            <img src={S8} alt="" className={classes.sistemas}/>
+                                        </RouterLink>
+                                    </Grid>
+                                    <Grid item xs={12} md={6} lg={4} xl={2} align="center">
+                                        <RouterLink to="/declaraciones" className={classes.link}>
+                                            <img src={S9} alt="" className={classes.sistemas}/>
+                                        </RouterLink>
+                                    </Grid>
                                 </Grid>
                             </Grid>
                         </Grid>
                         <CustomTypography paragraph>
-                            ¿Quieres saber más sobre el marco normativo de la PDN? haz click <Link
+                            ¿Quieres saber más sobre el marco normativo de la PDE? haz click <Link
                             component={RouterLink} to="/mesa-de-ayuda">aquí</Link>.
                         </CustomTypography>
 
 
                         <div className={classes.videoDiv}>
-                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/e9zZE5i8Vt4?rel=0"
+                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/W3gJLf6n6ak?rel=0"
                                     frameBorder="0" title={'Video'}
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen/>
                         </div>
 
                         <CustomTypography variant="h4" paragraph>
-                            ¿Cómo estamos desarrollando la PDN?
+                            ¿Cómo estamos desarrollando la PDE?
                         </CustomTypography>
 
                         <CustomTypography paragraph>
-                            La PDN opera con una arquitectura que permite consultar información de diversos proveedores (instituciones públicas), en tiempo real y de manera estandarizada (en un mismo formato). Con el objetivo de incorporar datos a la PDN, los generadores de información deben establecer mecanismos de comunicación que permitan la consulta de información desde la PDN hacia sus bases de datos.
+                            La PDE opera con una arquitectura que permite consultar información de diversos proveedores (instituciones públicas), en tiempo real y de manera estandarizada (en un mismo formato). Con el objetivo de incorporar datos a la PDE, los generadores de información deben establecer mecanismos de comunicación que permitan la consulta de información desde la PDE hacia sus bases de datos.
                         </CustomTypography>
 
                         <CustomTypography paragraph>
-                            La SESNA publicó las especificaciones técnicas y estándares de datos que permiten que cualquier institución pública  pueda desarrollar los mecanismos de comunicación con la PDN.
+                            La SECC publicó las especificaciones técnicas y estándares de datos que permiten que cualquier institución pública  pueda desarrollar los mecanismos de comunicación con la PDE.
                         </CustomTypography>
 
                         <CustomTypography variant="h5" paragraph>
-                            El desarrollo de la PDN tiene grandes ventajas:
+                            El desarrollo de la PDE tiene grandes ventajas:
                         </CustomTypography>
 
                         <ol className={classes.ol}>
@@ -206,12 +238,12 @@ const About = props => {
                             </li>
                             <li>
                                 <CustomTypography>
-                                    Atiende a la normatividad vigente y se desarrolla de manera modular y escalable al interior de la SESNA, por personas servidoras públicas, lo que significa que responde directamente a las necesidades de las y los usuarios, contrario a las plataformas que se desarrollan por medio de un tercero, bajo un modelo cerrado;
+                                    Atiende a la normatividad vigente y se desarrolla de manera modular y escalable al interior de la SECC, por personas servidoras públicas, lo que significa que responde directamente a las necesidades de las y los usuarios, contrario a las plataformas que se desarrollan por medio de un tercero, bajo un modelo cerrado;
                                 </CustomTypography>
                             </li>
                             <li>
                                 <CustomTypography>
-                                    No genera costos adicionales el hacer cualquier modificación o adecuación ya que la desarrolla el equipo de la SESNA;
+                                    No genera costos adicionales el hacer cualquier modificación o adecuación ya que la desarrolla el equipo de la SECC;
                                 </CustomTypography>
                             </li>
                             <li>
@@ -222,11 +254,11 @@ const About = props => {
                         </ol>
 
                         <CustomTypography variant="h4" paragraph>
-                            ¿Qué puedo hacer a través de la PDN?
+                            ¿Qué puedo hacer a través de la PDE?
                         </CustomTypography>
 
                         <CustomTypography paragraph>
-                            A través de la PDN podrás saber:
+                            A través de la PDE podrás saber:
                         </CustomTypography>
 
                         <ul className={classes.ul}>

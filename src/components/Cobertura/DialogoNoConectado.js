@@ -40,7 +40,7 @@ const DialogoNoConectado = (props) =>  {
                         </Box>
                         <Box p={1} m={1} flexGrow={1} display="flex" alignItems="stretch">
                             <Typography color="white" alignSelf="center">
-                                La Entidad no ha reportado información a la PDN
+                                La Entidad no ha reportado información a la PDE
                             </Typography>
                         </Box>
                     </Box>
