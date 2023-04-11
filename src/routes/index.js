@@ -228,8 +228,7 @@ const pdnRoutes = [
 		private: false,
 		name: "¿Qué es la Plataforma Digital Estatal?",
 		shortName: "¿Qué es la PDE?",
-		color: "#f2f2f2",
-		icon: IconAbout
+		color: "#f2f2f2"
 	},
 	{
 		exact: true,
