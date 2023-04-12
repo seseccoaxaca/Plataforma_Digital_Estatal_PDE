@@ -102,7 +102,7 @@ const About = props => {
 
                         <Typography color={'S1.color'} display={'inline'}>Sistema 1 | </Typography>
                         <CustomTypography display={'inline'}>
-                            Sistema de los Servidores públicos y particulares que intervengan en procedimientos de contrataciones públicas (S1).
+                        Sistema de evolución patrimonial, declaración de intereses y constancias de presentación de declaración fiscal (S1).
                         </CustomTypography>
                         <br/>
                         <Typography color={'S2.color'} display={'inline'}>Sistema 2 | </Typography>
@@ -274,7 +274,7 @@ const About = props => {
                             </li>
                             <li>
                                 <CustomTypography>
-                                    Las declaraciones patrimoniales de millones de personas servidoras públicas de todo el país.
+                                    Las declaraciones patrimoniales de miles de personas servidoras públicas de todo el estado.
                                 </CustomTypography>
                             </li>
                             <li>
