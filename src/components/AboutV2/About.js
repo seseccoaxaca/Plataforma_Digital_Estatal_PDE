@@ -7,13 +7,13 @@ import pdnRoutes from "../../routes/index";
 import HeaderV2 from '../HomeV2/HeaderV2';
 import S1 from "@assets/rediseno/sistemas_sin_fondo/btn-s1.svg";
 import S2 from "@assets/rediseno/sistemas_sin_fondo/btn-s2.svg";
-import S3 from "@assets/rediseno/sistemas_sin_fondo/btn-s3.svg";
-import S4 from "@assets/rediseno/sistemas_sin_fondo/btn-s4.svg";
-import S5 from "@assets/rediseno/sistemas_sin_fondo/btn-s5.svg";
-import S6 from "@assets/rediseno/sistemas_sin_fondo/btn-s6.svg";
-import S7 from "@assets/rediseno/sistemas_sin_fondo/btn-s6.svg";
-import S8 from "@assets/rediseno/sistemas_sin_fondo/btn-s6.svg";
-import S9 from "@assets/rediseno/sistemas_sin_fondo/btn-s6.svg";
+import S3 from "@assets/rediseno/sistemas_sin_fondo/btn-s3_a.svg";
+import S4 from "@assets/rediseno/sistemas_sin_fondo/btn-s4_a.svg";
+import S5 from "@assets/rediseno/sistemas_sin_fondo/btn-s5_a.svg";
+import S6 from "@assets/rediseno/sistemas_sin_fondo/btn-s6_a.svg";
+import S7 from "@assets/rediseno/sistemas_sin_fondo/btn-s7_a.svg";
+import S8 from "@assets/rediseno/sistemas_sin_fondo/btn-s8_a.svg";
+import S9 from "@assets/rediseno/sistemas_sin_fondo/btn-s9_a.svg";
 
 const styles = theme => ({
     root: {

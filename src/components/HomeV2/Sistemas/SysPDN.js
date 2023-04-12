@@ -38,7 +38,7 @@ const systems = [
         url: "/sancionados"
     },
     {
-        name: "Sistema Estatal de Servidores públicos y particulares sancionados",
+        name: "Sistema Estatal de servidores públicos y particulares sancionados",
         color: "#C6C1EB",
         icon: IconS4,
         url: "/fiscalizacion"
@@ -56,7 +56,7 @@ const systems = [
         url: "/contrataciones"
     },
     {
-        name: "Sistema de Información Pública de Contrataciones",
+        name: "Sistema de información pública de contrataciones",
         color: "#B2DBEB",
         icon: IconS7,
         url: "/fiscalizacion"
