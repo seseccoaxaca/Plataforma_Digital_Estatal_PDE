@@ -135,7 +135,7 @@ class Perfil extends React.Component {
           }}
         >
           <MenuSuperior menuSuperior={this.state.menuSuperior} handleChangeMenuSuperior={this.handleChangeMenuSuperior} />
-          {this.state.menuSuperior ? <Intereses value={this.state.menuIntereses} setValue={this.handleChangeMenuIntereses} data={data.declaracion.interes} tipo={data.metadata.tipo} /> : <SituacionPatrimonial value={this.state.menuSituacionPatrimonial} setValue={this.handleChangeMenuSituacionPatrimonial} data={data.declaracion.situacionPatrimonial} tipo={data.metadata.tipo} />}
+          {this.state.menuSuperior ? <Intereses value={this.state.menuIntereses} setValue={this.handleChangeMenuIntereses} data={data.declaracion.intereses} tipo={data.metadata.tipo} /> : <SituacionPatrimonial value={this.state.menuSituacionPatrimonial} setValue={this.handleChangeMenuSituacionPatrimonial} data={data.declaracion.situacionPatrimonial} tipo={data.metadata.tipo} />}
           <Grid item xs={12} md={12} style={{ textAlign: 'right', paddingTop: '20px' }}>
             <Button className={classes.btnBack} onClick={() => handleGoBack()} startIcon={<ArrowBackIosIcon />}>
               Regresar
