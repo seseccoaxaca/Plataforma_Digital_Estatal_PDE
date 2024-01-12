@@ -514,7 +514,7 @@ class Busqueda extends React.Component {
     this.getEscolaridadNivel();
     this.getFormaAdquisicion();
     this.getProviders();
-    this.getEntidadesFederativas();
+    //this.getEntidadesFederativas();
   }
 
   render() {
