@@ -1,0 +1,30 @@
+/*body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.cont {
+    width: 600px; /* Ancho del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    padding: 20px; /* Espacio interior del contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    /* Alineación del texto justificada */
+    text-align: justify;
+}
+
+.cont img {
+    max-width: 100%; /* La imagen no puede ser más ancha que el contenedor */
+    height: auto; /* Para mantener la relación de aspecto de la imagen */
+    display: block; /* Para evitar el espacio extra debajo de la imagen */
+    margin: 10px; /* Centra la imagen horizontalmente y añade espacio debajo */
+}
+
+.cont p {
+    font-size: 16px; /* Tamaño de fuente del texto */
+    color: #333; /* Color del texto */
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
